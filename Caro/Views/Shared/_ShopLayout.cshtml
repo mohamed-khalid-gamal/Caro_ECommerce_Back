@@ -1,0 +1,151 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0" />
+    <!-- css -->
+    <link rel="stylesheet"
+          href="~/css/normalize.css" />
+    <link rel="stylesheet"
+          href="~/css/all.min.css" />
+    
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css"  />
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css.map"  />
+    <link rel="stylesheet" href="~/css/style.css" />
+    <!-- css -->
+    <!-- google fonts -->
+    <link rel="preconnect"
+          href="https://fonts.googleapis.com" />
+    <link rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@100..900&display=swap"
+          rel="stylesheet" />
+
+    <!-- google fonts -->
+    <title>E-Commerce Project</title>
+</head>
+<body>
+    <div class="p1">
+        <span class="loader"></span>
+    </div>
+    <div class="container-web">
+        <section id="header">
+            <a asp-action="Index" asp-controller="Shop">
+                <img src="~/img/logo.png"
+                     alt="" />
+            </a>
+            <ul class="navbar">
+                <li class="active"><a asp-controller="Shop" asp-action="Index">Home</a></li>
+                <li><a asp-controller="Shop" asp-action="Products">Shop</a></li>
+                <li><a asp-controller="Shop" asp-action="Blogs"> Blogs</a></li>
+                <li><a asp-controller="Shop" asp-action="About">About</a></li>
+                <li><a asp-controller="Shop" asp-action="Contact">Contact</a></li>
+                <li>
+                    <a href="cart.html"
+                       class="bag"><i class="fa fa-shopping-bag"></i></a>
+                </li>
+                <i class="fa-solid fa-xmark close"></i>
+            </ul>
+            <i class="fa-solid fa-bars bar"></i>
+        </section>
+        @RenderBody();
+        <section id="new-sletter">
+            <div class="text">
+                <h3>Sign Up For New Sletters</h3>
+                <p>
+                    Get Email Updates About Our Latest Shop And
+                    <span>new Oferrs</span>
+                </p>
+            </div>
+            <form action=""
+                  method="post">
+                <input type="email"
+                       placeholder="Your Email Address" />
+                <input type="submit"
+                       value="Sign Up" />
+            </form>
+        </section>
+        <footer>
+            <!-- <div class="columns"> -->
+            <div class="col">
+                <img src=" ~/img/logo.png"
+                     alt="" />
+                <h4>Contact</h4>
+
+                <p>
+                    <strong>Address:</strong> 564 Wellingeton Road . Street 32.
+                    SanSiro
+                </p>
+                <p><strong>Phone:</strong> 0208473203 / 0121546231</p>
+                <p><strong>Hours:</strong> 10:00 - 18:00 . Mon - Sat</p>
+
+                <h4>Follow Us</h4>
+                <div class="links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"> <i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+            <div class="col">
+                <h4>About</h4>
+                <ul>
+                    <a asp-action="About" asp-controller="Shop"
+                       id="aboutButton">
+                    <li>About Us</li></a>
+                    
+                    <a href="#">
+                    <li>Delivery Information</li></a>
+                    <a href="#">
+                    <li>Privacy Policy</li></a>
+                    <a href="#">
+                    <li>Terms and Conditions</li></a>
+                    <a asp-action="Contact" asp-controller="Shop"
+                       id="contactButton">
+                    <li>Contact Us</li></a>
+                    
+                </ul>
+            </div>
+            <div class="col">
+                <h4>My Account</h4>
+                <ul>
+                    <a href="#">
+                    <li>Sign In</li></a>
+                    <a href="cart.html"
+                       id="cartButton">
+                    <li>View Cart</li></a
+                    >
+                    <a href="#">
+                    <li>My wishlist</li></a>
+                    <a href="#">
+                    <li>Track Order</li></a>
+                    <a href="#">
+                    <li>Help</li></a>
+                </ul>
+            </div>
+            <div class="col">
+                <h4>install app</h4>
+                <p>From AppStore or GooglePlay</p>
+                <div class="but">
+                    <img src=" ~/img/pay/app.jpg"
+                         alt="" />
+                    <img src=" ~/img/pay/play.jpg"
+                         alt="" />
+                </div>
+                <p>From AppStore or GooglePlay</p>
+                <img src=" ~/img/pay/pay.png"
+                     alt="" />
+            </div>
+            <!-- </div>
+                <div class="copyright">Made with love &lt;3 By Mo Khalid </div> -->
+            <div class="copyright">Made with love &lt;3 By Mo Khalid </div>
+        </footer>
+    </div>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/main.js"></script>
+</body>
+</html>

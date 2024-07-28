@@ -1,0 +1,3421 @@
+{
+  "Files": [
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Caro.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Caro.bundle.scp.css"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\css\\all.min.css",
+      "PackagePath": "staticwebassets\\css\\all.min.css"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\css\\normalize.css",
+      "PackagePath": "staticwebassets\\css\\normalize.css"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\boostrap\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\dash\\boostrap\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\boostrap\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\dash\\boostrap\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\boostrap\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\dash\\boostrap\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\boostrap\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\dash\\boostrap\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\boostrap\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\dash\\boostrap\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\boostrap\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\dash\\boostrap\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\boostrap\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\dash\\boostrap\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\boostrap\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\dash\\boostrap\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\boostrap\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\dash\\boostrap\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\boostrap\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\dash\\boostrap\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\boostrap\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\dash\\boostrap\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\boostrap\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\dash\\boostrap\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\boostrap\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\dash\\boostrap\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\boostrap\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\dash\\boostrap\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\boostrap\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\dash\\boostrap\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\boostrap\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\dash\\boostrap\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\boostrap\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\dash\\boostrap\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\boostrap\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\dash\\boostrap\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\boostrap\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\dash\\boostrap\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\boostrap\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\dash\\boostrap\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\boostrap\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\dash\\boostrap\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\boostrap\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\dash\\boostrap\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\boostrap\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\dash\\boostrap\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\boostrap\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\dash\\boostrap\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\boostrap\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\dash\\boostrap\\css\\bootstrap.css"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\boostrap\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\dash\\boostrap\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\boostrap\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\dash\\boostrap\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\boostrap\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\dash\\boostrap\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\boostrap\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\dash\\boostrap\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\boostrap\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\dash\\boostrap\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\boostrap\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\dash\\boostrap\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\boostrap\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\dash\\boostrap\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\boostrap\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\dash\\boostrap\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\boostrap\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\dash\\boostrap\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\boostrap\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\dash\\boostrap\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\boostrap\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\dash\\boostrap\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\boostrap\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\dash\\boostrap\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\boostrap\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\dash\\boostrap\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\boostrap\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\dash\\boostrap\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\boostrap\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\dash\\boostrap\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\boostrap\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\dash\\boostrap\\js\\bootstrap.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\boostrap\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\dash\\boostrap\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\boostrap\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\dash\\boostrap\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\boostrap\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\dash\\boostrap\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\css\\icons\\tabler-icons\\fonts\\tabler-icons.eot",
+      "PackagePath": "staticwebassets\\dash\\css\\icons\\tabler-icons\\fonts\\tabler-icons.eot"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\css\\icons\\tabler-icons\\fonts\\tabler-icons.svg",
+      "PackagePath": "staticwebassets\\dash\\css\\icons\\tabler-icons\\fonts\\tabler-icons.svg"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\css\\icons\\tabler-icons\\fonts\\tabler-icons.ttf",
+      "PackagePath": "staticwebassets\\dash\\css\\icons\\tabler-icons\\fonts\\tabler-icons.ttf"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\css\\icons\\tabler-icons\\fonts\\tabler-icons.woff",
+      "PackagePath": "staticwebassets\\dash\\css\\icons\\tabler-icons\\fonts\\tabler-icons.woff"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\css\\icons\\tabler-icons\\fonts\\tabler-icons.woff2",
+      "PackagePath": "staticwebassets\\dash\\css\\icons\\tabler-icons\\fonts\\tabler-icons.woff2"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\css\\icons\\tabler-icons\\tabler-icons.css",
+      "PackagePath": "staticwebassets\\dash\\css\\icons\\tabler-icons\\tabler-icons.css"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\css\\styles.css",
+      "PackagePath": "staticwebassets\\dash\\css\\styles.css"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\css\\styles.min.css",
+      "PackagePath": "staticwebassets\\dash\\css\\styles.min.css"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\images\\backgrounds\\rupee.png",
+      "PackagePath": "staticwebassets\\dash\\images\\backgrounds\\rupee.png"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\images\\blog\\blog-img1.jpg",
+      "PackagePath": "staticwebassets\\dash\\images\\blog\\blog-img1.jpg"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\images\\blog\\blog-img2.jpg",
+      "PackagePath": "staticwebassets\\dash\\images\\blog\\blog-img2.jpg"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\images\\blog\\blog-img3.jpg",
+      "PackagePath": "staticwebassets\\dash\\images\\blog\\blog-img3.jpg"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\images\\logos\\favicon.png",
+      "PackagePath": "staticwebassets\\dash\\images\\logos\\favicon.png"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\images\\logos\\logo.svg",
+      "PackagePath": "staticwebassets\\dash\\images\\logos\\logo.svg"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\images\\products\\dash-prd-1.jpg",
+      "PackagePath": "staticwebassets\\dash\\images\\products\\dash-prd-1.jpg"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\images\\products\\dash-prd-2.jpg",
+      "PackagePath": "staticwebassets\\dash\\images\\products\\dash-prd-2.jpg"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\images\\products\\dash-prd-3.jpg",
+      "PackagePath": "staticwebassets\\dash\\images\\products\\dash-prd-3.jpg"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\images\\products\\dash-prd-4.jpg",
+      "PackagePath": "staticwebassets\\dash\\images\\products\\dash-prd-4.jpg"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\images\\products\\s4.jpg",
+      "PackagePath": "staticwebassets\\dash\\images\\products\\s4.jpg"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\images\\profile\\user-1.jpg",
+      "PackagePath": "staticwebassets\\dash\\images\\profile\\user-1.jpg"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\images\\profile\\user-2.jpg",
+      "PackagePath": "staticwebassets\\dash\\images\\profile\\user-2.jpg"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\images\\profile\\user-3.jpg",
+      "PackagePath": "staticwebassets\\dash\\images\\profile\\user-3.jpg"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\js\\app.min.js",
+      "PackagePath": "staticwebassets\\dash\\js\\app.min.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\js\\dashboard.js",
+      "PackagePath": "staticwebassets\\dash\\js\\dashboard.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\js\\sidebarmenu.js",
+      "PackagePath": "staticwebassets\\dash\\js\\sidebarmenu.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\LICENSE",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\README.md",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\README.md"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\dist\\apexcharts.amd.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\dist\\apexcharts.amd.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\dist\\apexcharts.common.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\dist\\apexcharts.common.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\dist\\apexcharts.css",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\dist\\apexcharts.css"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\dist\\apexcharts.esm.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\dist\\apexcharts.esm.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\dist\\apexcharts.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\dist\\apexcharts.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\dist\\apexcharts.min.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\dist\\apexcharts.min.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\dist\\locales\\ar.json",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\dist\\locales\\ar.json"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\dist\\locales\\ca.json",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\dist\\locales\\ca.json"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\dist\\locales\\cs.json",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\dist\\locales\\cs.json"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\dist\\locales\\de.json",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\dist\\locales\\de.json"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\dist\\locales\\el.json",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\dist\\locales\\el.json"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\dist\\locales\\en.json",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\dist\\locales\\en.json"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\dist\\locales\\es.json",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\dist\\locales\\es.json"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\dist\\locales\\et.json",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\dist\\locales\\et.json"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\dist\\locales\\fa.json",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\dist\\locales\\fa.json"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\dist\\locales\\fi.json",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\dist\\locales\\fi.json"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\dist\\locales\\fr.json",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\dist\\locales\\fr.json"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\dist\\locales\\he.json",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\dist\\locales\\he.json"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\dist\\locales\\hi.json",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\dist\\locales\\hi.json"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\dist\\locales\\hr.json",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\dist\\locales\\hr.json"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\dist\\locales\\hu.json",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\dist\\locales\\hu.json"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\dist\\locales\\hy.json",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\dist\\locales\\hy.json"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\dist\\locales\\id.json",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\dist\\locales\\id.json"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\dist\\locales\\it.json",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\dist\\locales\\it.json"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\dist\\locales\\ja.json",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\dist\\locales\\ja.json"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\dist\\locales\\ka.json",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\dist\\locales\\ka.json"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\dist\\locales\\ko.json",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\dist\\locales\\ko.json"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\dist\\locales\\lt.json",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\dist\\locales\\lt.json"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\dist\\locales\\lv.json",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\dist\\locales\\lv.json"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\dist\\locales\\nb.json",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\dist\\locales\\nb.json"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\dist\\locales\\nl.json",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\dist\\locales\\nl.json"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\dist\\locales\\pl.json",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\dist\\locales\\pl.json"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\dist\\locales\\pt-br.json",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\dist\\locales\\pt-br.json"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\dist\\locales\\pt.json",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\dist\\locales\\pt.json"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\dist\\locales\\rs.json",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\dist\\locales\\rs.json"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\dist\\locales\\ru.json",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\dist\\locales\\ru.json"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\dist\\locales\\se.json",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\dist\\locales\\se.json"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\dist\\locales\\sk.json",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\dist\\locales\\sk.json"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\dist\\locales\\sl.json",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\dist\\locales\\sl.json"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\dist\\locales\\sq.json",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\dist\\locales\\sq.json"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\dist\\locales\\th.json",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\dist\\locales\\th.json"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\dist\\locales\\tr.json",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\dist\\locales\\tr.json"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\dist\\locales\\ua.json",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\dist\\locales\\ua.json"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\dist\\locales\\zh-cn.json",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\dist\\locales\\zh-cn.json"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\dist\\locales\\zh-tw.json",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\dist\\locales\\zh-tw.json"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\package.json",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\package.json"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\src\\apexcharts.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\src\\apexcharts.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\src\\assets\\apexcharts.css",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\src\\assets\\apexcharts.css"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\src\\assets\\ico-camera.svg",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\src\\assets\\ico-camera.svg"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\src\\assets\\ico-home.svg",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\src\\assets\\ico-home.svg"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\src\\assets\\ico-menu.svg",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\src\\assets\\ico-menu.svg"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\src\\assets\\ico-minus-square.svg",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\src\\assets\\ico-minus-square.svg"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\src\\assets\\ico-minus.svg",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\src\\assets\\ico-minus.svg"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\src\\assets\\ico-pan-hand.svg",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\src\\assets\\ico-pan-hand.svg"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\src\\assets\\ico-pan.svg",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\src\\assets\\ico-pan.svg"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\src\\assets\\ico-plus-square.svg",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\src\\assets\\ico-plus-square.svg"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\src\\assets\\ico-plus.svg",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\src\\assets\\ico-plus.svg"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\src\\assets\\ico-refresh.svg",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\src\\assets\\ico-refresh.svg"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\src\\assets\\ico-reset.svg",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\src\\assets\\ico-reset.svg"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\src\\assets\\ico-select.svg",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\src\\assets\\ico-select.svg"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\src\\assets\\ico-select1.svg",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\src\\assets\\ico-select1.svg"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\src\\assets\\ico-zoom-in.svg",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\src\\assets\\ico-zoom-in.svg"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\src\\assets\\ico-zoom-out.svg",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\src\\assets\\ico-zoom-out.svg"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\src\\assets\\ico-zoom.svg",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\src\\assets\\ico-zoom.svg"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\src\\charts\\Bar.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\src\\charts\\Bar.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\src\\charts\\BarStacked.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\src\\charts\\BarStacked.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\src\\charts\\BoxCandleStick.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\src\\charts\\BoxCandleStick.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\src\\charts\\HeatMap.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\src\\charts\\HeatMap.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\src\\charts\\Line.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\src\\charts\\Line.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\src\\charts\\Pie.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\src\\charts\\Pie.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\src\\charts\\Radar.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\src\\charts\\Radar.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\src\\charts\\Radial.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\src\\charts\\Radial.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\src\\charts\\RangeBar.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\src\\charts\\RangeBar.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\src\\charts\\Scatter.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\src\\charts\\Scatter.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\src\\charts\\Treemap.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\src\\charts\\Treemap.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\src\\charts\\common\\bar\\DataLabels.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\src\\charts\\common\\bar\\DataLabels.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\src\\charts\\common\\bar\\Helpers.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\src\\charts\\common\\bar\\Helpers.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\src\\charts\\common\\circle\\Helpers.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\src\\charts\\common\\circle\\Helpers.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\src\\charts\\common\\line\\Helpers.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\src\\charts\\common\\line\\Helpers.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\src\\charts\\common\\treemap\\Helpers.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\src\\charts\\common\\treemap\\Helpers.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\src\\libs\\Treemap-squared.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\src\\libs\\Treemap-squared.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\src\\locales\\ar.json",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\src\\locales\\ar.json"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\src\\locales\\ca.json",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\src\\locales\\ca.json"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\src\\locales\\cs.json",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\src\\locales\\cs.json"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\src\\locales\\de.json",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\src\\locales\\de.json"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\src\\locales\\el.json",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\src\\locales\\el.json"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\src\\locales\\en.json",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\src\\locales\\en.json"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\src\\locales\\es.json",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\src\\locales\\es.json"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\src\\locales\\et.json",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\src\\locales\\et.json"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\src\\locales\\fa.json",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\src\\locales\\fa.json"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\src\\locales\\fi.json",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\src\\locales\\fi.json"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\src\\locales\\fr.json",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\src\\locales\\fr.json"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\src\\locales\\he.json",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\src\\locales\\he.json"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\src\\locales\\hi.json",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\src\\locales\\hi.json"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\src\\locales\\hr.json",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\src\\locales\\hr.json"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\src\\locales\\hu.json",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\src\\locales\\hu.json"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\src\\locales\\hy.json",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\src\\locales\\hy.json"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\src\\locales\\id.json",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\src\\locales\\id.json"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\src\\locales\\it.json",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\src\\locales\\it.json"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\src\\locales\\ja.json",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\src\\locales\\ja.json"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\src\\locales\\ka.json",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\src\\locales\\ka.json"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\src\\locales\\ko.json",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\src\\locales\\ko.json"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\src\\locales\\lt.json",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\src\\locales\\lt.json"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\src\\locales\\lv.json",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\src\\locales\\lv.json"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\src\\locales\\nb.json",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\src\\locales\\nb.json"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\src\\locales\\nl.json",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\src\\locales\\nl.json"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\src\\locales\\pl.json",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\src\\locales\\pl.json"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\src\\locales\\pt-br.json",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\src\\locales\\pt-br.json"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\src\\locales\\pt.json",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\src\\locales\\pt.json"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\src\\locales\\rs.json",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\src\\locales\\rs.json"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\src\\locales\\ru.json",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\src\\locales\\ru.json"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\src\\locales\\se.json",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\src\\locales\\se.json"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\src\\locales\\sk.json",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\src\\locales\\sk.json"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\src\\locales\\sl.json",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\src\\locales\\sl.json"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\src\\locales\\sq.json",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\src\\locales\\sq.json"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\src\\locales\\th.json",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\src\\locales\\th.json"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\src\\locales\\tr.json",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\src\\locales\\tr.json"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\src\\locales\\ua.json",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\src\\locales\\ua.json"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\src\\locales\\zh-cn.json",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\src\\locales\\zh-cn.json"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\src\\locales\\zh-tw.json",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\src\\locales\\zh-tw.json"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\src\\modules\\Animations.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\src\\modules\\Animations.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\src\\modules\\Base.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\src\\modules\\Base.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\src\\modules\\Core.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\src\\modules\\Core.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\src\\modules\\CoreUtils.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\src\\modules\\CoreUtils.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\src\\modules\\Crosshairs.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\src\\modules\\Crosshairs.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\src\\modules\\Data.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\src\\modules\\Data.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\src\\modules\\DataLabels.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\src\\modules\\DataLabels.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\src\\modules\\Events.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\src\\modules\\Events.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\src\\modules\\Exports.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\src\\modules\\Exports.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\src\\modules\\Fill.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\src\\modules\\Fill.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\src\\modules\\Filters.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\src\\modules\\Filters.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\src\\modules\\Formatters.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\src\\modules\\Formatters.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\src\\modules\\Graphics.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\src\\modules\\Graphics.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\src\\modules\\Markers.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\src\\modules\\Markers.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\src\\modules\\Range.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\src\\modules\\Range.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\src\\modules\\Responsive.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\src\\modules\\Responsive.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\src\\modules\\Scales.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\src\\modules\\Scales.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\src\\modules\\Series.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\src\\modules\\Series.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\src\\modules\\Theme.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\src\\modules\\Theme.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\src\\modules\\TimeScale.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\src\\modules\\TimeScale.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\src\\modules\\TitleSubtitle.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\src\\modules\\TitleSubtitle.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\src\\modules\\Toolbar.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\src\\modules\\Toolbar.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\src\\modules\\ZoomPanSelection.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\src\\modules\\ZoomPanSelection.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\src\\modules\\annotations\\Annotations.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\src\\modules\\annotations\\Annotations.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\src\\modules\\annotations\\Helpers.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\src\\modules\\annotations\\Helpers.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\src\\modules\\annotations\\PointsAnnotations.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\src\\modules\\annotations\\PointsAnnotations.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\src\\modules\\annotations\\XAxisAnnotations.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\src\\modules\\annotations\\XAxisAnnotations.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\src\\modules\\annotations\\YAxisAnnotations.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\src\\modules\\annotations\\YAxisAnnotations.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\src\\modules\\axes\\Axes.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\src\\modules\\axes\\Axes.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\src\\modules\\axes\\AxesUtils.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\src\\modules\\axes\\AxesUtils.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\src\\modules\\axes\\Grid.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\src\\modules\\axes\\Grid.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\src\\modules\\axes\\XAxis.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\src\\modules\\axes\\XAxis.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\src\\modules\\axes\\YAxis.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\src\\modules\\axes\\YAxis.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\src\\modules\\dimensions\\Dimensions.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\src\\modules\\dimensions\\Dimensions.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\src\\modules\\dimensions\\Grid.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\src\\modules\\dimensions\\Grid.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\src\\modules\\dimensions\\Helpers.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\src\\modules\\dimensions\\Helpers.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\src\\modules\\dimensions\\XAxis.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\src\\modules\\dimensions\\XAxis.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\src\\modules\\dimensions\\YAxis.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\src\\modules\\dimensions\\YAxis.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\src\\modules\\helpers\\Destroy.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\src\\modules\\helpers\\Destroy.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\src\\modules\\helpers\\InitCtxVariables.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\src\\modules\\helpers\\InitCtxVariables.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\src\\modules\\helpers\\Localization.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\src\\modules\\helpers\\Localization.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\src\\modules\\helpers\\UpdateHelpers.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\src\\modules\\helpers\\UpdateHelpers.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\src\\modules\\legend\\Helpers.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\src\\modules\\legend\\Helpers.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\src\\modules\\legend\\Legend.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\src\\modules\\legend\\Legend.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\src\\modules\\settings\\Config.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\src\\modules\\settings\\Config.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\src\\modules\\settings\\Defaults.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\src\\modules\\settings\\Defaults.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\src\\modules\\settings\\Globals.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\src\\modules\\settings\\Globals.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\src\\modules\\settings\\Options.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\src\\modules\\settings\\Options.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\src\\modules\\tooltip\\AxesTooltip.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\src\\modules\\tooltip\\AxesTooltip.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\src\\modules\\tooltip\\Intersect.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\src\\modules\\tooltip\\Intersect.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\src\\modules\\tooltip\\Labels.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\src\\modules\\tooltip\\Labels.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\src\\modules\\tooltip\\Marker.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\src\\modules\\tooltip\\Marker.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\src\\modules\\tooltip\\Position.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\src\\modules\\tooltip\\Position.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\src\\modules\\tooltip\\README.md",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\src\\modules\\tooltip\\README.md"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\src\\modules\\tooltip\\Tooltip.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\src\\modules\\tooltip\\Tooltip.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\src\\modules\\tooltip\\Utils.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\src\\modules\\tooltip\\Utils.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\src\\svgjs\\svg.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\src\\svgjs\\svg.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\src\\utils\\DateTime.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\src\\utils\\DateTime.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\src\\utils\\Resize.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\src\\utils\\Resize.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\src\\utils\\Utils.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\src\\utils\\Utils.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\apexcharts\\types\\apexcharts.d.ts",
+      "PackagePath": "staticwebassets\\dash\\libs\\apexcharts\\types\\apexcharts.d.ts"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\README.md",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\README.md"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\js\\dist\\alert.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\js\\dist\\alert.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\js\\dist\\alert.js.map",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\js\\dist\\alert.js.map"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\js\\dist\\base-component.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\js\\dist\\base-component.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\js\\dist\\base-component.js.map",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\js\\dist\\base-component.js.map"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\js\\dist\\button.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\js\\dist\\button.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\js\\dist\\button.js.map",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\js\\dist\\button.js.map"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\js\\dist\\carousel.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\js\\dist\\carousel.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\js\\dist\\carousel.js.map",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\js\\dist\\carousel.js.map"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\js\\dist\\collapse.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\js\\dist\\collapse.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\js\\dist\\collapse.js.map",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\js\\dist\\collapse.js.map"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\js\\dist\\dom\\data.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\js\\dist\\dom\\data.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\js\\dist\\dom\\data.js.map",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\js\\dist\\dom\\data.js.map"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\js\\dist\\dom\\event-handler.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\js\\dist\\dom\\event-handler.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\js\\dist\\dom\\event-handler.js.map",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\js\\dist\\dom\\event-handler.js.map"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\js\\dist\\dom\\manipulator.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\js\\dist\\dom\\manipulator.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\js\\dist\\dom\\manipulator.js.map",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\js\\dist\\dom\\manipulator.js.map"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\js\\dist\\dom\\selector-engine.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\js\\dist\\dom\\selector-engine.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\js\\dist\\dom\\selector-engine.js.map",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\js\\dist\\dom\\selector-engine.js.map"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\js\\dist\\dropdown.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\js\\dist\\dropdown.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\js\\dist\\dropdown.js.map",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\js\\dist\\dropdown.js.map"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\js\\dist\\modal.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\js\\dist\\modal.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\js\\dist\\modal.js.map",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\js\\dist\\modal.js.map"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\js\\dist\\offcanvas.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\js\\dist\\offcanvas.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\js\\dist\\offcanvas.js.map",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\js\\dist\\offcanvas.js.map"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\js\\dist\\popover.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\js\\dist\\popover.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\js\\dist\\popover.js.map",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\js\\dist\\popover.js.map"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\js\\dist\\scrollspy.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\js\\dist\\scrollspy.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\js\\dist\\scrollspy.js.map",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\js\\dist\\scrollspy.js.map"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\js\\dist\\tab.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\js\\dist\\tab.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\js\\dist\\tab.js.map",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\js\\dist\\tab.js.map"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\js\\dist\\toast.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\js\\dist\\toast.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\js\\dist\\toast.js.map",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\js\\dist\\toast.js.map"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\js\\dist\\tooltip.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\js\\dist\\tooltip.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\js\\dist\\tooltip.js.map",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\js\\dist\\tooltip.js.map"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\js\\dist\\util\\backdrop.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\js\\dist\\util\\backdrop.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\js\\dist\\util\\backdrop.js.map",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\js\\dist\\util\\backdrop.js.map"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\js\\dist\\util\\component-functions.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\js\\dist\\util\\component-functions.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\js\\dist\\util\\component-functions.js.map",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\js\\dist\\util\\component-functions.js.map"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\js\\dist\\util\\config.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\js\\dist\\util\\config.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\js\\dist\\util\\config.js.map",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\js\\dist\\util\\config.js.map"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\js\\dist\\util\\focustrap.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\js\\dist\\util\\focustrap.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\js\\dist\\util\\focustrap.js.map",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\js\\dist\\util\\focustrap.js.map"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\js\\dist\\util\\index.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\js\\dist\\util\\index.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\js\\dist\\util\\index.js.map",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\js\\dist\\util\\index.js.map"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\js\\dist\\util\\sanitizer.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\js\\dist\\util\\sanitizer.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\js\\dist\\util\\sanitizer.js.map",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\js\\dist\\util\\sanitizer.js.map"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\js\\dist\\util\\scrollbar.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\js\\dist\\util\\scrollbar.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\js\\dist\\util\\scrollbar.js.map",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\js\\dist\\util\\scrollbar.js.map"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\js\\dist\\util\\swipe.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\js\\dist\\util\\swipe.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\js\\dist\\util\\swipe.js.map",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\js\\dist\\util\\swipe.js.map"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\js\\dist\\util\\template-factory.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\js\\dist\\util\\template-factory.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\js\\dist\\util\\template-factory.js.map",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\js\\dist\\util\\template-factory.js.map"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\js\\index.esm.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\js\\index.esm.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\js\\index.umd.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\js\\index.umd.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\js\\src\\alert.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\js\\src\\alert.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\js\\src\\base-component.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\js\\src\\base-component.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\js\\src\\button.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\js\\src\\button.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\js\\src\\carousel.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\js\\src\\carousel.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\js\\src\\collapse.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\js\\src\\collapse.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\js\\src\\dom\\data.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\js\\src\\dom\\data.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\js\\src\\dom\\event-handler.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\js\\src\\dom\\event-handler.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\js\\src\\dom\\manipulator.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\js\\src\\dom\\manipulator.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\js\\src\\dom\\selector-engine.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\js\\src\\dom\\selector-engine.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\js\\src\\dropdown.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\js\\src\\dropdown.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\js\\src\\modal.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\js\\src\\modal.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\js\\src\\offcanvas.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\js\\src\\offcanvas.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\js\\src\\popover.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\js\\src\\popover.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\js\\src\\scrollspy.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\js\\src\\scrollspy.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\js\\src\\tab.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\js\\src\\tab.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\js\\src\\toast.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\js\\src\\toast.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\js\\src\\tooltip.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\js\\src\\tooltip.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\js\\src\\util\\backdrop.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\js\\src\\util\\backdrop.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\js\\src\\util\\component-functions.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\js\\src\\util\\component-functions.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\js\\src\\util\\config.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\js\\src\\util\\config.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\js\\src\\util\\focustrap.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\js\\src\\util\\focustrap.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\js\\src\\util\\index.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\js\\src\\util\\index.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\js\\src\\util\\sanitizer.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\js\\src\\util\\sanitizer.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\js\\src\\util\\scrollbar.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\js\\src\\util\\scrollbar.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\js\\src\\util\\swipe.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\js\\src\\util\\swipe.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\js\\src\\util\\template-factory.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\js\\src\\util\\template-factory.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\js\\tests\\README.md",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\js\\tests\\README.md"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\js\\tests\\browsers.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\js\\tests\\browsers.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\js\\tests\\helpers\\fixture.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\js\\tests\\helpers\\fixture.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\js\\tests\\integration\\bundle-modularity.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\js\\tests\\integration\\bundle-modularity.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\js\\tests\\integration\\bundle.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\js\\tests\\integration\\bundle.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\js\\tests\\integration\\index.html",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\js\\tests\\integration\\index.html"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\js\\tests\\integration\\rollup.bundle-modularity.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\js\\tests\\integration\\rollup.bundle-modularity.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\js\\tests\\integration\\rollup.bundle.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\js\\tests\\integration\\rollup.bundle.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\js\\tests\\karma.conf.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\js\\tests\\karma.conf.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\js\\tests\\unit\\.eslintrc.json",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\js\\tests\\unit\\.eslintrc.json"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\js\\tests\\unit\\alert.spec.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\js\\tests\\unit\\alert.spec.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\js\\tests\\unit\\base-component.spec.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\js\\tests\\unit\\base-component.spec.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\js\\tests\\unit\\button.spec.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\js\\tests\\unit\\button.spec.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\js\\tests\\unit\\carousel.spec.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\js\\tests\\unit\\carousel.spec.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\js\\tests\\unit\\collapse.spec.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\js\\tests\\unit\\collapse.spec.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\js\\tests\\unit\\dom\\data.spec.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\js\\tests\\unit\\dom\\data.spec.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\js\\tests\\unit\\dom\\event-handler.spec.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\js\\tests\\unit\\dom\\event-handler.spec.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\js\\tests\\unit\\dom\\manipulator.spec.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\js\\tests\\unit\\dom\\manipulator.spec.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\js\\tests\\unit\\dom\\selector-engine.spec.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\js\\tests\\unit\\dom\\selector-engine.spec.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\js\\tests\\unit\\dropdown.spec.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\js\\tests\\unit\\dropdown.spec.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\js\\tests\\unit\\jquery.spec.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\js\\tests\\unit\\jquery.spec.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\js\\tests\\unit\\modal.spec.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\js\\tests\\unit\\modal.spec.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\js\\tests\\unit\\offcanvas.spec.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\js\\tests\\unit\\offcanvas.spec.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\js\\tests\\unit\\popover.spec.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\js\\tests\\unit\\popover.spec.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\js\\tests\\unit\\scrollspy.spec.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\js\\tests\\unit\\scrollspy.spec.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\js\\tests\\unit\\tab.spec.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\js\\tests\\unit\\tab.spec.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\js\\tests\\unit\\toast.spec.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\js\\tests\\unit\\toast.spec.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\js\\tests\\unit\\tooltip.spec.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\js\\tests\\unit\\tooltip.spec.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\js\\tests\\unit\\util\\backdrop.spec.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\js\\tests\\unit\\util\\backdrop.spec.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\js\\tests\\unit\\util\\component-functions.spec.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\js\\tests\\unit\\util\\component-functions.spec.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\js\\tests\\unit\\util\\config.spec.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\js\\tests\\unit\\util\\config.spec.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\js\\tests\\unit\\util\\focustrap.spec.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\js\\tests\\unit\\util\\focustrap.spec.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\js\\tests\\unit\\util\\index.spec.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\js\\tests\\unit\\util\\index.spec.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\js\\tests\\unit\\util\\sanitizer.spec.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\js\\tests\\unit\\util\\sanitizer.spec.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\js\\tests\\unit\\util\\scrollbar.spec.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\js\\tests\\unit\\util\\scrollbar.spec.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\js\\tests\\unit\\util\\swipe.spec.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\js\\tests\\unit\\util\\swipe.spec.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\js\\tests\\unit\\util\\template-factory.spec.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\js\\tests\\unit\\util\\template-factory.spec.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\js\\tests\\visual\\.eslintrc.json",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\js\\tests\\visual\\.eslintrc.json"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\js\\tests\\visual\\alert.html",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\js\\tests\\visual\\alert.html"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\js\\tests\\visual\\button.html",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\js\\tests\\visual\\button.html"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\js\\tests\\visual\\carousel.html",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\js\\tests\\visual\\carousel.html"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\js\\tests\\visual\\collapse.html",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\js\\tests\\visual\\collapse.html"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\js\\tests\\visual\\dropdown.html",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\js\\tests\\visual\\dropdown.html"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\js\\tests\\visual\\modal.html",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\js\\tests\\visual\\modal.html"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\js\\tests\\visual\\popover.html",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\js\\tests\\visual\\popover.html"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\js\\tests\\visual\\scrollspy.html",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\js\\tests\\visual\\scrollspy.html"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\js\\tests\\visual\\tab.html",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\js\\tests\\visual\\tab.html"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\js\\tests\\visual\\toast.html",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\js\\tests\\visual\\toast.html"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\js\\tests\\visual\\tooltip.html",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\js\\tests\\visual\\tooltip.html"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\package.json",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\package.json"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\scss\\_accordion.scss",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\scss\\_accordion.scss"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\scss\\_alert.scss",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\scss\\_alert.scss"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\scss\\_badge.scss",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\scss\\_badge.scss"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\scss\\_breadcrumb.scss",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\scss\\_breadcrumb.scss"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\scss\\_button-group.scss",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\scss\\_button-group.scss"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\scss\\_buttons.scss",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\scss\\_buttons.scss"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\scss\\_card.scss",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\scss\\_card.scss"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\scss\\_carousel.scss",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\scss\\_carousel.scss"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\scss\\_close.scss",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\scss\\_close.scss"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\scss\\_containers.scss",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\scss\\_containers.scss"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\scss\\_dropdown.scss",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\scss\\_dropdown.scss"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\scss\\_forms.scss",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\scss\\_forms.scss"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\scss\\_functions.scss",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\scss\\_functions.scss"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\scss\\_grid.scss",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\scss\\_grid.scss"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\scss\\_helpers.scss",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\scss\\_helpers.scss"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\scss\\_images.scss",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\scss\\_images.scss"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\scss\\_list-group.scss",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\scss\\_list-group.scss"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\scss\\_maps.scss",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\scss\\_maps.scss"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\scss\\_mixins.scss",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\scss\\_mixins.scss"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\scss\\_modal.scss",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\scss\\_modal.scss"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\scss\\_nav.scss",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\scss\\_nav.scss"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\scss\\_navbar.scss",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\scss\\_navbar.scss"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\scss\\_offcanvas.scss",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\scss\\_offcanvas.scss"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\scss\\_pagination.scss",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\scss\\_pagination.scss"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\scss\\_placeholders.scss",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\scss\\_placeholders.scss"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\scss\\_popover.scss",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\scss\\_popover.scss"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\scss\\_progress.scss",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\scss\\_progress.scss"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\scss\\_reboot.scss",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\scss\\_reboot.scss"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\scss\\_root.scss",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\scss\\_root.scss"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\scss\\_spinners.scss",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\scss\\_spinners.scss"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\scss\\_tables.scss",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\scss\\_tables.scss"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\scss\\_toasts.scss",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\scss\\_toasts.scss"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\scss\\_tooltip.scss",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\scss\\_tooltip.scss"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\scss\\_transitions.scss",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\scss\\_transitions.scss"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\scss\\_type.scss",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\scss\\_type.scss"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\scss\\_utilities.scss",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\scss\\_utilities.scss"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\scss\\_variables-dark.scss",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\scss\\_variables-dark.scss"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\scss\\_variables.scss",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\scss\\_variables.scss"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\scss\\bootstrap-grid.scss",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\scss\\bootstrap-grid.scss"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\scss\\bootstrap-reboot.scss",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\scss\\bootstrap-reboot.scss"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\scss\\bootstrap-utilities.scss",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\scss\\bootstrap-utilities.scss"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\scss\\bootstrap.scss",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\scss\\bootstrap.scss"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\scss\\forms\\_floating-labels.scss",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\scss\\forms\\_floating-labels.scss"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\scss\\forms\\_form-check.scss",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\scss\\forms\\_form-check.scss"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\scss\\forms\\_form-control.scss",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\scss\\forms\\_form-control.scss"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\scss\\forms\\_form-range.scss",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\scss\\forms\\_form-range.scss"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\scss\\forms\\_form-select.scss",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\scss\\forms\\_form-select.scss"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\scss\\forms\\_form-text.scss",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\scss\\forms\\_form-text.scss"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\scss\\forms\\_input-group.scss",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\scss\\forms\\_input-group.scss"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\scss\\forms\\_labels.scss",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\scss\\forms\\_labels.scss"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\scss\\forms\\_validation.scss",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\scss\\forms\\_validation.scss"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\scss\\helpers\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\scss\\helpers\\_clearfix.scss"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\scss\\helpers\\_color-bg.scss",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\scss\\helpers\\_color-bg.scss"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\scss\\helpers\\_colored-links.scss",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\scss\\helpers\\_colored-links.scss"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\scss\\helpers\\_focus-ring.scss",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\scss\\helpers\\_focus-ring.scss"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\scss\\helpers\\_icon-link.scss",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\scss\\helpers\\_icon-link.scss"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\scss\\helpers\\_position.scss",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\scss\\helpers\\_position.scss"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\scss\\helpers\\_ratio.scss",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\scss\\helpers\\_ratio.scss"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\scss\\helpers\\_stacks.scss",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\scss\\helpers\\_stacks.scss"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\scss\\helpers\\_stretched-link.scss",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\scss\\helpers\\_stretched-link.scss"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\scss\\helpers\\_text-truncation.scss",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\scss\\helpers\\_text-truncation.scss"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\scss\\helpers\\_visually-hidden.scss",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\scss\\helpers\\_visually-hidden.scss"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\scss\\helpers\\_vr.scss",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\scss\\helpers\\_vr.scss"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\scss\\mixins\\_alert.scss",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\scss\\mixins\\_alert.scss"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\scss\\mixins\\_backdrop.scss",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\scss\\mixins\\_backdrop.scss"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\scss\\mixins\\_banner.scss",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\scss\\mixins\\_banner.scss"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\scss\\mixins\\_border-radius.scss",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\scss\\mixins\\_border-radius.scss"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\scss\\mixins\\_box-shadow.scss",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\scss\\mixins\\_box-shadow.scss"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\scss\\mixins\\_breakpoints.scss",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\scss\\mixins\\_breakpoints.scss"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\scss\\mixins\\_buttons.scss",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\scss\\mixins\\_buttons.scss"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\scss\\mixins\\_caret.scss",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\scss\\mixins\\_caret.scss"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\scss\\mixins\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\scss\\mixins\\_clearfix.scss"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\scss\\mixins\\_color-mode.scss",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\scss\\mixins\\_color-mode.scss"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\scss\\mixins\\_color-scheme.scss",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\scss\\mixins\\_color-scheme.scss"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\scss\\mixins\\_container.scss",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\scss\\mixins\\_container.scss"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\scss\\mixins\\_deprecate.scss",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\scss\\mixins\\_deprecate.scss"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\scss\\mixins\\_forms.scss",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\scss\\mixins\\_forms.scss"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\scss\\mixins\\_gradients.scss",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\scss\\mixins\\_gradients.scss"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\scss\\mixins\\_grid.scss",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\scss\\mixins\\_grid.scss"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\scss\\mixins\\_image.scss",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\scss\\mixins\\_image.scss"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\scss\\mixins\\_list-group.scss",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\scss\\mixins\\_list-group.scss"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\scss\\mixins\\_lists.scss",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\scss\\mixins\\_lists.scss"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\scss\\mixins\\_pagination.scss",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\scss\\mixins\\_pagination.scss"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\scss\\mixins\\_reset-text.scss",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\scss\\mixins\\_reset-text.scss"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\scss\\mixins\\_resize.scss",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\scss\\mixins\\_resize.scss"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\scss\\mixins\\_table-variants.scss",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\scss\\mixins\\_table-variants.scss"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\scss\\mixins\\_text-truncate.scss",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\scss\\mixins\\_text-truncate.scss"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\scss\\mixins\\_transition.scss",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\scss\\mixins\\_transition.scss"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\scss\\mixins\\_utilities.scss",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\scss\\mixins\\_utilities.scss"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\scss\\mixins\\_visually-hidden.scss",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\scss\\mixins\\_visually-hidden.scss"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\scss\\tests\\jasmine.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\scss\\tests\\jasmine.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\scss\\tests\\mixins\\_color-modes.test.scss",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\scss\\tests\\mixins\\_color-modes.test.scss"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\scss\\tests\\mixins\\_media-query-color-mode-full.test.scss",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\scss\\tests\\mixins\\_media-query-color-mode-full.test.scss"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\scss\\tests\\mixins\\_utilities.test.scss",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\scss\\tests\\mixins\\_utilities.test.scss"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\scss\\tests\\sass-true\\register.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\scss\\tests\\sass-true\\register.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\scss\\tests\\sass-true\\runner.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\scss\\tests\\sass-true\\runner.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\scss\\tests\\utilities\\_api.test.scss",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\scss\\tests\\utilities\\_api.test.scss"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\scss\\utilities\\_api.scss",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\scss\\utilities\\_api.scss"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\bootstrap\\scss\\vendor\\_rfs.scss",
+      "PackagePath": "staticwebassets\\dash\\libs\\bootstrap\\scss\\vendor\\_rfs.scss"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\jquery\\AUTHORS.txt",
+      "PackagePath": "staticwebassets\\dash\\libs\\jquery\\AUTHORS.txt"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\dash\\libs\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\jquery\\README.md",
+      "PackagePath": "staticwebassets\\dash\\libs\\jquery\\README.md"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\jquery\\bower.json",
+      "PackagePath": "staticwebassets\\dash\\libs\\jquery\\bower.json"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\jquery\\dist\\core.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\jquery\\dist\\core.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\dash\\libs\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\jquery\\dist\\jquery.slim.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\jquery\\dist\\jquery.slim.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\jquery\\dist\\jquery.slim.min.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\jquery\\dist\\jquery.slim.min.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\jquery\\dist\\jquery.slim.min.map",
+      "PackagePath": "staticwebassets\\dash\\libs\\jquery\\dist\\jquery.slim.min.map"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\jquery\\external\\sizzle\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\dash\\libs\\jquery\\external\\sizzle\\LICENSE.txt"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\jquery\\external\\sizzle\\dist\\sizzle.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\jquery\\external\\sizzle\\dist\\sizzle.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\jquery\\external\\sizzle\\dist\\sizzle.min.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\jquery\\external\\sizzle\\dist\\sizzle.min.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\jquery\\external\\sizzle\\dist\\sizzle.min.map",
+      "PackagePath": "staticwebassets\\dash\\libs\\jquery\\external\\sizzle\\dist\\sizzle.min.map"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\jquery\\package.json",
+      "PackagePath": "staticwebassets\\dash\\libs\\jquery\\package.json"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\jquery\\src\\.eslintrc.json",
+      "PackagePath": "staticwebassets\\dash\\libs\\jquery\\src\\.eslintrc.json"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\jquery\\src\\ajax.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\jquery\\src\\ajax.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\jquery\\src\\ajax\\jsonp.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\jquery\\src\\ajax\\jsonp.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\jquery\\src\\ajax\\load.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\jquery\\src\\ajax\\load.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\jquery\\src\\ajax\\parseXML.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\jquery\\src\\ajax\\parseXML.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\jquery\\src\\ajax\\script.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\jquery\\src\\ajax\\script.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\jquery\\src\\ajax\\var\\location.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\jquery\\src\\ajax\\var\\location.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\jquery\\src\\ajax\\var\\nonce.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\jquery\\src\\ajax\\var\\nonce.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\jquery\\src\\ajax\\var\\rquery.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\jquery\\src\\ajax\\var\\rquery.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\jquery\\src\\ajax\\xhr.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\jquery\\src\\ajax\\xhr.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\jquery\\src\\attributes.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\jquery\\src\\attributes.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\jquery\\src\\attributes\\attr.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\jquery\\src\\attributes\\attr.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\jquery\\src\\attributes\\classes.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\jquery\\src\\attributes\\classes.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\jquery\\src\\attributes\\prop.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\jquery\\src\\attributes\\prop.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\jquery\\src\\attributes\\support.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\jquery\\src\\attributes\\support.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\jquery\\src\\attributes\\val.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\jquery\\src\\attributes\\val.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\jquery\\src\\callbacks.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\jquery\\src\\callbacks.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\jquery\\src\\core.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\jquery\\src\\core.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\jquery\\src\\core\\DOMEval.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\jquery\\src\\core\\DOMEval.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\jquery\\src\\core\\access.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\jquery\\src\\core\\access.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\jquery\\src\\core\\camelCase.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\jquery\\src\\core\\camelCase.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\jquery\\src\\core\\init.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\jquery\\src\\core\\init.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\jquery\\src\\core\\isAttached.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\jquery\\src\\core\\isAttached.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\jquery\\src\\core\\nodeName.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\jquery\\src\\core\\nodeName.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\jquery\\src\\core\\parseHTML.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\jquery\\src\\core\\parseHTML.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\jquery\\src\\core\\ready-no-deferred.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\jquery\\src\\core\\ready-no-deferred.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\jquery\\src\\core\\ready.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\jquery\\src\\core\\ready.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\jquery\\src\\core\\readyException.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\jquery\\src\\core\\readyException.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\jquery\\src\\core\\stripAndCollapse.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\jquery\\src\\core\\stripAndCollapse.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\jquery\\src\\core\\support.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\jquery\\src\\core\\support.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\jquery\\src\\core\\toType.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\jquery\\src\\core\\toType.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\jquery\\src\\core\\var\\rsingleTag.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\jquery\\src\\core\\var\\rsingleTag.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\jquery\\src\\css.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\jquery\\src\\css.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\jquery\\src\\css\\addGetHookIf.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\jquery\\src\\css\\addGetHookIf.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\jquery\\src\\css\\adjustCSS.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\jquery\\src\\css\\adjustCSS.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\jquery\\src\\css\\curCSS.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\jquery\\src\\css\\curCSS.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\jquery\\src\\css\\finalPropName.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\jquery\\src\\css\\finalPropName.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\jquery\\src\\css\\hiddenVisibleSelectors.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\jquery\\src\\css\\hiddenVisibleSelectors.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\jquery\\src\\css\\showHide.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\jquery\\src\\css\\showHide.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\jquery\\src\\css\\support.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\jquery\\src\\css\\support.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\jquery\\src\\css\\var\\cssExpand.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\jquery\\src\\css\\var\\cssExpand.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\jquery\\src\\css\\var\\getStyles.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\jquery\\src\\css\\var\\getStyles.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\jquery\\src\\css\\var\\isHiddenWithinTree.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\jquery\\src\\css\\var\\isHiddenWithinTree.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\jquery\\src\\css\\var\\rboxStyle.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\jquery\\src\\css\\var\\rboxStyle.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\jquery\\src\\css\\var\\rnumnonpx.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\jquery\\src\\css\\var\\rnumnonpx.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\jquery\\src\\css\\var\\swap.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\jquery\\src\\css\\var\\swap.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\jquery\\src\\data.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\jquery\\src\\data.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\jquery\\src\\data\\Data.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\jquery\\src\\data\\Data.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\jquery\\src\\data\\var\\acceptData.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\jquery\\src\\data\\var\\acceptData.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\jquery\\src\\data\\var\\dataPriv.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\jquery\\src\\data\\var\\dataPriv.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\jquery\\src\\data\\var\\dataUser.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\jquery\\src\\data\\var\\dataUser.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\jquery\\src\\deferred.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\jquery\\src\\deferred.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\jquery\\src\\deferred\\exceptionHook.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\jquery\\src\\deferred\\exceptionHook.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\jquery\\src\\deprecated.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\jquery\\src\\deprecated.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\jquery\\src\\dimensions.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\jquery\\src\\dimensions.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\jquery\\src\\effects.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\jquery\\src\\effects.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\jquery\\src\\effects\\Tween.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\jquery\\src\\effects\\Tween.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\jquery\\src\\effects\\animatedSelector.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\jquery\\src\\effects\\animatedSelector.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\jquery\\src\\event.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\jquery\\src\\event.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\jquery\\src\\event\\ajax.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\jquery\\src\\event\\ajax.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\jquery\\src\\event\\alias.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\jquery\\src\\event\\alias.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\jquery\\src\\event\\focusin.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\jquery\\src\\event\\focusin.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\jquery\\src\\event\\support.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\jquery\\src\\event\\support.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\jquery\\src\\event\\trigger.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\jquery\\src\\event\\trigger.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\jquery\\src\\exports\\amd.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\jquery\\src\\exports\\amd.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\jquery\\src\\exports\\global.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\jquery\\src\\exports\\global.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\jquery\\src\\jquery.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\jquery\\src\\jquery.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\jquery\\src\\manipulation.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\jquery\\src\\manipulation.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\jquery\\src\\manipulation\\_evalUrl.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\jquery\\src\\manipulation\\_evalUrl.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\jquery\\src\\manipulation\\buildFragment.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\jquery\\src\\manipulation\\buildFragment.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\jquery\\src\\manipulation\\getAll.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\jquery\\src\\manipulation\\getAll.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\jquery\\src\\manipulation\\setGlobalEval.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\jquery\\src\\manipulation\\setGlobalEval.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\jquery\\src\\manipulation\\support.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\jquery\\src\\manipulation\\support.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\jquery\\src\\manipulation\\var\\rscriptType.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\jquery\\src\\manipulation\\var\\rscriptType.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\jquery\\src\\manipulation\\var\\rtagName.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\jquery\\src\\manipulation\\var\\rtagName.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\jquery\\src\\manipulation\\wrapMap.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\jquery\\src\\manipulation\\wrapMap.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\jquery\\src\\offset.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\jquery\\src\\offset.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\jquery\\src\\queue.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\jquery\\src\\queue.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\jquery\\src\\queue\\delay.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\jquery\\src\\queue\\delay.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\jquery\\src\\selector-native.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\jquery\\src\\selector-native.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\jquery\\src\\selector-sizzle.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\jquery\\src\\selector-sizzle.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\jquery\\src\\selector.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\jquery\\src\\selector.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\jquery\\src\\serialize.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\jquery\\src\\serialize.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\jquery\\src\\traversing.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\jquery\\src\\traversing.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\jquery\\src\\traversing\\findFilter.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\jquery\\src\\traversing\\findFilter.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\jquery\\src\\traversing\\var\\dir.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\jquery\\src\\traversing\\var\\dir.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\jquery\\src\\traversing\\var\\rneedsContext.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\jquery\\src\\traversing\\var\\rneedsContext.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\jquery\\src\\traversing\\var\\siblings.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\jquery\\src\\traversing\\var\\siblings.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\jquery\\src\\var\\ObjectFunctionString.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\jquery\\src\\var\\ObjectFunctionString.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\jquery\\src\\var\\arr.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\jquery\\src\\var\\arr.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\jquery\\src\\var\\class2type.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\jquery\\src\\var\\class2type.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\jquery\\src\\var\\concat.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\jquery\\src\\var\\concat.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\jquery\\src\\var\\document.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\jquery\\src\\var\\document.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\jquery\\src\\var\\documentElement.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\jquery\\src\\var\\documentElement.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\jquery\\src\\var\\fnToString.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\jquery\\src\\var\\fnToString.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\jquery\\src\\var\\getProto.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\jquery\\src\\var\\getProto.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\jquery\\src\\var\\hasOwn.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\jquery\\src\\var\\hasOwn.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\jquery\\src\\var\\indexOf.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\jquery\\src\\var\\indexOf.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\jquery\\src\\var\\isFunction.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\jquery\\src\\var\\isFunction.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\jquery\\src\\var\\isWindow.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\jquery\\src\\var\\isWindow.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\jquery\\src\\var\\pnum.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\jquery\\src\\var\\pnum.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\jquery\\src\\var\\push.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\jquery\\src\\var\\push.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\jquery\\src\\var\\rcheckableType.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\jquery\\src\\var\\rcheckableType.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\jquery\\src\\var\\rcssNum.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\jquery\\src\\var\\rcssNum.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\jquery\\src\\var\\rnothtmlwhite.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\jquery\\src\\var\\rnothtmlwhite.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\jquery\\src\\var\\slice.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\jquery\\src\\var\\slice.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\jquery\\src\\var\\support.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\jquery\\src\\var\\support.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\jquery\\src\\var\\toString.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\jquery\\src\\var\\toString.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\jquery\\src\\wrap.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\jquery\\src\\wrap.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\simplebar\\LICENSE",
+      "PackagePath": "staticwebassets\\dash\\libs\\simplebar"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\simplebar\\README.md",
+      "PackagePath": "staticwebassets\\dash\\libs\\simplebar\\README.md"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\simplebar\\dist\\simplebar-core.esm.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\simplebar\\dist\\simplebar-core.esm.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\simplebar\\dist\\simplebar-core.esm.js.map",
+      "PackagePath": "staticwebassets\\dash\\libs\\simplebar\\dist\\simplebar-core.esm.js.map"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\simplebar\\dist\\simplebar.css",
+      "PackagePath": "staticwebassets\\dash\\libs\\simplebar\\dist\\simplebar.css"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\simplebar\\dist\\simplebar.d.ts",
+      "PackagePath": "staticwebassets\\dash\\libs\\simplebar\\dist\\simplebar.d.ts"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\simplebar\\dist\\simplebar.esm.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\simplebar\\dist\\simplebar.esm.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\simplebar\\dist\\simplebar.esm.js.map",
+      "PackagePath": "staticwebassets\\dash\\libs\\simplebar\\dist\\simplebar.esm.js.map"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\simplebar\\dist\\simplebar.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\simplebar\\dist\\simplebar.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\simplebar\\dist\\simplebar.min.css",
+      "PackagePath": "staticwebassets\\dash\\libs\\simplebar\\dist\\simplebar.min.css"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\simplebar\\dist\\simplebar.min.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\simplebar\\dist\\simplebar.min.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\simplebar\\dist\\simplebar.umd.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\simplebar\\dist\\simplebar.umd.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\simplebar\\package.json",
+      "PackagePath": "staticwebassets\\dash\\libs\\simplebar\\package.json"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\simplebar\\src\\helpers.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\simplebar\\src\\helpers.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\simplebar\\src\\index.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\simplebar\\src\\index.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\simplebar\\src\\scrollbar-width.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\simplebar\\src\\scrollbar-width.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\simplebar\\src\\simplebar.css",
+      "PackagePath": "staticwebassets\\dash\\libs\\simplebar\\src\\simplebar.css"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\libs\\simplebar\\src\\simplebar.js",
+      "PackagePath": "staticwebassets\\dash\\libs\\simplebar\\src\\simplebar.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\scss\\component\\_card.scss",
+      "PackagePath": "staticwebassets\\dash\\scss\\component\\_card.scss"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\scss\\component\\_reboot.scss",
+      "PackagePath": "staticwebassets\\dash\\scss\\component\\_reboot.scss"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\scss\\layouts\\_header.scss",
+      "PackagePath": "staticwebassets\\dash\\scss\\layouts\\_header.scss"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\scss\\layouts\\_layouts.scss",
+      "PackagePath": "staticwebassets\\dash\\scss\\layouts\\_layouts.scss"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\scss\\layouts\\_sidebar.scss",
+      "PackagePath": "staticwebassets\\dash\\scss\\layouts\\_sidebar.scss"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\scss\\pages\\_dashboard1.scss",
+      "PackagePath": "staticwebassets\\dash\\scss\\pages\\_dashboard1.scss"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\scss\\styles.scss",
+      "PackagePath": "staticwebassets\\dash\\scss\\styles.scss"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\scss\\utilities\\_icon-size.scss",
+      "PackagePath": "staticwebassets\\dash\\scss\\utilities\\_icon-size.scss"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\scss\\variables\\_theme-variables.scss",
+      "PackagePath": "staticwebassets\\dash\\scss\\variables\\_theme-variables.scss"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\dash\\scss\\variables\\_variables.scss",
+      "PackagePath": "staticwebassets\\dash\\scss\\variables\\_variables.scss"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\img\\1st (5).pdf.png",
+      "PackagePath": "staticwebassets\\img\\1st (5).pdf.png"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\img\\about\\1.mp4",
+      "PackagePath": "staticwebassets\\img\\about\\1.mp4"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\img\\about\\a1.png",
+      "PackagePath": "staticwebassets\\img\\about\\a1.png"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\img\\about\\a2.jpg",
+      "PackagePath": "staticwebassets\\img\\about\\a2.jpg"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\img\\about\\a3.png",
+      "PackagePath": "staticwebassets\\img\\about\\a3.png"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\img\\about\\a4.png",
+      "PackagePath": "staticwebassets\\img\\about\\a4.png"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\img\\about\\a5.jpg",
+      "PackagePath": "staticwebassets\\img\\about\\a5.jpg"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\img\\about\\a6.jpg",
+      "PackagePath": "staticwebassets\\img\\about\\a6.jpg"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\img\\about\\banner.png",
+      "PackagePath": "staticwebassets\\img\\about\\banner.png"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\img\\banner\\b1.jpg",
+      "PackagePath": "staticwebassets\\img\\banner\\b1.jpg"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\img\\banner\\b10.jpg",
+      "PackagePath": "staticwebassets\\img\\banner\\b10.jpg"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\img\\banner\\b14.png",
+      "PackagePath": "staticwebassets\\img\\banner\\b14.png"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\img\\banner\\b16.jpg",
+      "PackagePath": "staticwebassets\\img\\banner\\b16.jpg"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\img\\banner\\b17.jpg",
+      "PackagePath": "staticwebassets\\img\\banner\\b17.jpg"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\img\\banner\\b18.jpg",
+      "PackagePath": "staticwebassets\\img\\banner\\b18.jpg"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\img\\banner\\b19.jpg",
+      "PackagePath": "staticwebassets\\img\\banner\\b19.jpg"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\img\\banner\\b2.jpg",
+      "PackagePath": "staticwebassets\\img\\banner\\b2.jpg"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\img\\banner\\b20.jpg",
+      "PackagePath": "staticwebassets\\img\\banner\\b20.jpg"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\img\\banner\\b4.jpg",
+      "PackagePath": "staticwebassets\\img\\banner\\b4.jpg"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\img\\banner\\b7.jpg",
+      "PackagePath": "staticwebassets\\img\\banner\\b7.jpg"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\img\\blog\\b1.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\b1.jpg"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\img\\blog\\b2.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\b2.jpg"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\img\\blog\\b3.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\b3.jpg"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\img\\blog\\b4.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\b4.jpg"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\img\\blog\\b5.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\b5.jpg"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\img\\blog\\b6.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\b6.jpg"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\img\\blog\\b7.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\b7.jpg"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\img\\button.png",
+      "PackagePath": "staticwebassets\\img\\button.png"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\img\\f2.jpg",
+      "PackagePath": "staticwebassets\\img\\f2.jpg"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\img\\features\\f1.png",
+      "PackagePath": "staticwebassets\\img\\features\\f1.png"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\img\\features\\f2.png",
+      "PackagePath": "staticwebassets\\img\\features\\f2.png"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\img\\features\\f3.png",
+      "PackagePath": "staticwebassets\\img\\features\\f3.png"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\img\\features\\f4.png",
+      "PackagePath": "staticwebassets\\img\\features\\f4.png"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\img\\features\\f5.png",
+      "PackagePath": "staticwebassets\\img\\features\\f5.png"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\img\\features\\f6.png",
+      "PackagePath": "staticwebassets\\img\\features\\f6.png"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\img\\hero4.png",
+      "PackagePath": "staticwebassets\\img\\hero4.png"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\img\\logo.png",
+      "PackagePath": "staticwebassets\\img\\logo.png"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\img\\pay\\app.jpg",
+      "PackagePath": "staticwebassets\\img\\pay\\app.jpg"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\img\\pay\\pay.png",
+      "PackagePath": "staticwebassets\\img\\pay\\pay.png"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\img\\pay\\play.jpg",
+      "PackagePath": "staticwebassets\\img\\pay\\play.jpg"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\img\\people\\1.png",
+      "PackagePath": "staticwebassets\\img\\people\\1.png"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\img\\people\\2.png",
+      "PackagePath": "staticwebassets\\img\\people\\2.png"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\img\\people\\3.png",
+      "PackagePath": "staticwebassets\\img\\people\\3.png"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\img\\products\\f1.jpg",
+      "PackagePath": "staticwebassets\\img\\products\\f1.jpg"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\img\\products\\f2.jpg",
+      "PackagePath": "staticwebassets\\img\\products\\f2.jpg"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\img\\products\\f3.jpg",
+      "PackagePath": "staticwebassets\\img\\products\\f3.jpg"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\img\\products\\f4.jpg",
+      "PackagePath": "staticwebassets\\img\\products\\f4.jpg"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\img\\products\\f5.jpg",
+      "PackagePath": "staticwebassets\\img\\products\\f5.jpg"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\img\\products\\f6.jpg",
+      "PackagePath": "staticwebassets\\img\\products\\f6.jpg"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\img\\products\\f7.jpg",
+      "PackagePath": "staticwebassets\\img\\products\\f7.jpg"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\img\\products\\f8.jpg",
+      "PackagePath": "staticwebassets\\img\\products\\f8.jpg"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\img\\products\\n1.jpg",
+      "PackagePath": "staticwebassets\\img\\products\\n1.jpg"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\img\\products\\n2.jpg",
+      "PackagePath": "staticwebassets\\img\\products\\n2.jpg"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\img\\products\\n3.jpg",
+      "PackagePath": "staticwebassets\\img\\products\\n3.jpg"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\img\\products\\n4.jpg",
+      "PackagePath": "staticwebassets\\img\\products\\n4.jpg"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\img\\products\\n5.jpg",
+      "PackagePath": "staticwebassets\\img\\products\\n5.jpg"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\img\\products\\n6.jpg",
+      "PackagePath": "staticwebassets\\img\\products\\n6.jpg"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\img\\products\\n7.jpg",
+      "PackagePath": "staticwebassets\\img\\products\\n7.jpg"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\img\\products\\n8.jpg",
+      "PackagePath": "staticwebassets\\img\\products\\n8.jpg"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\js\\main.js",
+      "PackagePath": "staticwebassets\\js\\main.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\uploads\\06bf581a-8638-488e-879e-8c1509ef2c86_f2.jpg",
+      "PackagePath": "staticwebassets\\uploads\\06bf581a-8638-488e-879e-8c1509ef2c86_f2.jpg"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\uploads\\0d212307-0e6f-4ed7-929e-9154322aadbb_n3.jpg",
+      "PackagePath": "staticwebassets\\uploads\\0d212307-0e6f-4ed7-929e-9154322aadbb_n3.jpg"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\uploads\\0f467c17-a6a3-4669-a78b-233c31077bd0_n8.jpg",
+      "PackagePath": "staticwebassets\\uploads\\0f467c17-a6a3-4669-a78b-233c31077bd0_n8.jpg"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\uploads\\15ce7424-3ac3-4c25-881e-4cceebe43a21_n2.jpg",
+      "PackagePath": "staticwebassets\\uploads\\15ce7424-3ac3-4c25-881e-4cceebe43a21_n2.jpg"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\uploads\\1750ab0a-2212-4c58-803a-b77accbbe70e_f1.jpg",
+      "PackagePath": "staticwebassets\\uploads\\1750ab0a-2212-4c58-803a-b77accbbe70e_f1.jpg"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\uploads\\274b4d57-c283-4711-ac2f-dc814d0c6794_n6.jpg",
+      "PackagePath": "staticwebassets\\uploads\\274b4d57-c283-4711-ac2f-dc814d0c6794_n6.jpg"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\uploads\\34a92154-dd86-4720-ba0f-fd63b3315806_f2.jpg",
+      "PackagePath": "staticwebassets\\uploads\\34a92154-dd86-4720-ba0f-fd63b3315806_f2.jpg"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\uploads\\3ab10c04-67f1-43a0-9d9e-f3d3cf7a440f_n6.jpg",
+      "PackagePath": "staticwebassets\\uploads\\3ab10c04-67f1-43a0-9d9e-f3d3cf7a440f_n6.jpg"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\uploads\\3bf9d6e2-57fe-4c6b-8dd0-a61860ffe8a3_f3.jpg",
+      "PackagePath": "staticwebassets\\uploads\\3bf9d6e2-57fe-4c6b-8dd0-a61860ffe8a3_f3.jpg"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\uploads\\40a9f74e-9e60-47cd-87b2-2a2ede24e52d_f8.jpg",
+      "PackagePath": "staticwebassets\\uploads\\40a9f74e-9e60-47cd-87b2-2a2ede24e52d_f8.jpg"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\uploads\\5181b1a4-2a4c-46db-8e54-8bfad55fb43e_n3.jpg",
+      "PackagePath": "staticwebassets\\uploads\\5181b1a4-2a4c-46db-8e54-8bfad55fb43e_n3.jpg"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\uploads\\5bbf50b6-4e2c-446a-8795-a33e2e1d5957_f3.jpg",
+      "PackagePath": "staticwebassets\\uploads\\5bbf50b6-4e2c-446a-8795-a33e2e1d5957_f3.jpg"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\uploads\\5dfcde4d-159b-4e5b-a841-b13cb95a7e98_f7.jpg",
+      "PackagePath": "staticwebassets\\uploads\\5dfcde4d-159b-4e5b-a841-b13cb95a7e98_f7.jpg"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\uploads\\699222cf-61f9-43c6-9abc-a64c8e23b808_1st.png",
+      "PackagePath": "staticwebassets\\uploads\\699222cf-61f9-43c6-9abc-a64c8e23b808_1st.png"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\uploads\\6daa75bc-61c9-4285-b124-beb1d7e466bd_n2.jpg",
+      "PackagePath": "staticwebassets\\uploads\\6daa75bc-61c9-4285-b124-beb1d7e466bd_n2.jpg"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\uploads\\705aa4f4-b811-43cb-a8c7-11f4466bff36_f2.jpg",
+      "PackagePath": "staticwebassets\\uploads\\705aa4f4-b811-43cb-a8c7-11f4466bff36_f2.jpg"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\uploads\\7092a202-eddc-4648-b4d2-759837a6f860_n1.jpg",
+      "PackagePath": "staticwebassets\\uploads\\7092a202-eddc-4648-b4d2-759837a6f860_n1.jpg"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\uploads\\76eac9ff-88c6-4018-9356-efcf3867d547_n5.jpg",
+      "PackagePath": "staticwebassets\\uploads\\76eac9ff-88c6-4018-9356-efcf3867d547_n5.jpg"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\uploads\\775d205d-8d97-4c62-998c-8a1c3c507697_n4.jpg",
+      "PackagePath": "staticwebassets\\uploads\\775d205d-8d97-4c62-998c-8a1c3c507697_n4.jpg"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\uploads\\818fe25e-3d28-47f0-ba41-5247389fed24_n4.jpg",
+      "PackagePath": "staticwebassets\\uploads\\818fe25e-3d28-47f0-ba41-5247389fed24_n4.jpg"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\uploads\\820fb27f-c58e-41e1-a2fc-c7e7cab9f94a_6xxAm9F4smP8Xtj1Ul16TJYkAAAAASUVORK5CYII=.png",
+      "PackagePath": "staticwebassets\\uploads\\820fb27f-c58e-41e1-a2fc-c7e7cab9f94a_6xxAm9F4smP8Xtj1Ul16TJYkAAAAASUVORK5CYII=.png"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\uploads\\93435832-4346-4b96-b171-d0a9152fd7c7_animal-lizard-nature-multi-colored-close-up-generative-ai.jpg",
+      "PackagePath": "staticwebassets\\uploads\\93435832-4346-4b96-b171-d0a9152fd7c7_animal-lizard-nature-multi-colored-close-up-generative-ai.jpg"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\uploads\\985042c1-03f3-4af7-9601-ade5c082116e_1st (5).pdf.png",
+      "PackagePath": "staticwebassets\\uploads\\985042c1-03f3-4af7-9601-ade5c082116e_1st (5).pdf.png"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\uploads\\9b89bfe4-95be-411b-8f68-57eb74272198_f3.jpg",
+      "PackagePath": "staticwebassets\\uploads\\9b89bfe4-95be-411b-8f68-57eb74272198_f3.jpg"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\uploads\\a32ae8c2-5052-4be1-aeff-ebea9d0f9a41_n7.jpg",
+      "PackagePath": "staticwebassets\\uploads\\a32ae8c2-5052-4be1-aeff-ebea9d0f9a41_n7.jpg"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\uploads\\ac743b50-8bf8-4c56-bc4e-d4ecf3a5c27f_f3.jpg",
+      "PackagePath": "staticwebassets\\uploads\\ac743b50-8bf8-4c56-bc4e-d4ecf3a5c27f_f3.jpg"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\uploads\\b88a9bda-da6b-441a-b48c-5bdb9ceca76c_n7.jpg",
+      "PackagePath": "staticwebassets\\uploads\\b88a9bda-da6b-441a-b48c-5bdb9ceca76c_n7.jpg"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\uploads\\bb99dac4-7d06-445b-925f-69b4e4971477_n5.jpg",
+      "PackagePath": "staticwebassets\\uploads\\bb99dac4-7d06-445b-925f-69b4e4971477_n5.jpg"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\uploads\\c3d7dbd2-625b-4981-b8b4-84d6f6073489_n8.jpg",
+      "PackagePath": "staticwebassets\\uploads\\c3d7dbd2-625b-4981-b8b4-84d6f6073489_n8.jpg"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\uploads\\c5acf315-13b9-4e45-a890-e85059f3c24b_n3.jpg",
+      "PackagePath": "staticwebassets\\uploads\\c5acf315-13b9-4e45-a890-e85059f3c24b_n3.jpg"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\uploads\\cb5b78c6-f39b-41d8-a7d6-4102bf07e820_f1.jpg",
+      "PackagePath": "staticwebassets\\uploads\\cb5b78c6-f39b-41d8-a7d6-4102bf07e820_f1.jpg"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\uploads\\cbd28425-fb42-468c-b004-177b8bc2d2d2_f3.jpg",
+      "PackagePath": "staticwebassets\\uploads\\cbd28425-fb42-468c-b004-177b8bc2d2d2_f3.jpg"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\uploads\\d1bb1a68-ff3b-4147-a2ab-6bc2e9601329_n5.jpg",
+      "PackagePath": "staticwebassets\\uploads\\d1bb1a68-ff3b-4147-a2ab-6bc2e9601329_n5.jpg"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\uploads\\e484e63c-0efc-4b98-8143-cbd87c03789c_n2.jpg",
+      "PackagePath": "staticwebassets\\uploads\\e484e63c-0efc-4b98-8143-cbd87c03789c_n2.jpg"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\uploads\\e8a504e8-2818-4269-9218-d0985e44d3ea_f6.jpg",
+      "PackagePath": "staticwebassets\\uploads\\e8a504e8-2818-4269-9218-d0985e44d3ea_f6.jpg"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\uploads\\f571efbe-b10e-407f-8db7-fa466afb4bcf_f4.jpg",
+      "PackagePath": "staticwebassets\\uploads\\f571efbe-b10e-407f-8db7-fa466afb4bcf_f4.jpg"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\uploads\\fb12f286-e501-4761-84a7-c59eb2a845fa_f2.jpg",
+      "PackagePath": "staticwebassets\\uploads\\fb12f286-e501-4761-84a7-c59eb2a845fa_f2.jpg"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\uploads\\fffdfdd8-03e1-4597-af47-226b85aea8fc_f5.jpg",
+      "PackagePath": "staticwebassets\\uploads\\fffdfdd8-03e1-4597-af47-226b85aea8fc_f5.jpg"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\webfonts\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\webfonts\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\webfonts\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\webfonts\\fa-brands-400.woff2"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\webfonts\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\webfonts\\fa-regular-400.ttf"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\webfonts\\fa-regular-400.woff2",
+      "PackagePath": "staticwebassets\\webfonts\\fa-regular-400.woff2"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\webfonts\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\webfonts\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\webfonts\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\webfonts\\fa-solid-900.woff2"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\webfonts\\fa-v4compatibility.ttf",
+      "PackagePath": "staticwebassets\\webfonts\\fa-v4compatibility.ttf"
+    },
+    {
+      "Id": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\webfonts\\fa-v4compatibility.woff2",
+      "PackagePath": "staticwebassets\\webfonts\\fa-v4compatibility.woff2"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Caro.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Caro.props",
+      "PackagePath": "build\\Caro.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Caro.props",
+      "PackagePath": "buildMultiTargeting\\Caro.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Caro.props",
+      "PackagePath": "buildTransitive\\Caro.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,103 @@
+﻿@model ProductViewModel
+<div class=" container-fluid" style="padding:20px; margin-top:100px;">
+    <form asp-action="Create" method="post" enctype="multipart/form-data">
+        <div class="form-group">
+            <label asp-for="Name"></label>
+            <input asp-for="Name" class="form-control" />
+            <span asp-validation-for="Name" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="Description"></label>
+            <input asp-for="Description" class="form-control" />
+            <span asp-validation-for="Description" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="Price"></label>
+            <input asp-for="Price" class="form-control" />
+            <span asp-validation-for="Price" class="text-danger"></span>
+        </div>
+        <h3>Sizes</h3>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Size</th>
+                    <th>Quantity</th>
+                    
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody id="sizesTableBody">
+                @for (var i = 0; i < Model.Sizes.Count; i++)
+                {
+                    <tr>
+                        <td>
+                            <select class="form-select"  asp-for="@Model.Sizes[i].Size">
+                                <option selected>Select Size</option>
+                                <option value="Small">Small</option>
+                                <option value="Medium">Medium</option>
+                                <option value="Large">Large</option>
+                                <option value="XLarge">XLarge</option>
+                                <option value="XXLarge">XXLarge</option>
+                                <option value="XXXLarge">XXXLarge</option>
+                                <option value="XXXXLarge">XXXXLarge</option>
+                            </select>
+                            <span asp-validation-for="@Model.Sizes[i].Size" class="text-danger"></span>
+                        </td>
+                        <td>
+                            <input asp-for="@Model.Sizes[i].Quantity" class="form-control" />
+                            <span asp-validation-for="@Model.Sizes[i].Quantity" class="text-danger"></span>
+                        </td>
+                        
+                        <td>
+                            <button type="button" class="btn btn-danger" onclick="removeSizeRow(this)">Remove</button>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+
+        <button type="button" class="btn btn-secondary" onclick="addSizeRow()">Add Size</button>
+
+        <div class="form-group mt-4">
+            <label asp-for="ImageFiles">Upload Images</label>
+            <input asp-for="ImageFiles" type="file" class="form-control" multiple />
+            <span asp-validation-for="ImageFiles" class="text-danger"></span>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Create</button>
+    </form>
+</div>
+
+<script>
+    function addSizeRow() {
+        var tableBody = document.getElementById('sizesTableBody');
+        var newRow = document.createElement('tr');
+        newRow.innerHTML = `
+                        <td>
+                                <select class="form-select" name="Sizes[${tableBody.children.length}].Size" >
+                                    <option selected>Select Size</option>
+                                    <option value="Small">Small</option>
+                                    <option value="Medium">Medium</option>
+                                    <option value="Large">Large</option>
+                                    <option value="XLarge">XLarge</option>
+                                    <option value="XXLarge">XXLarge</option>
+                                    <option value="XXXLarge">XXXLarge</option>
+                                    <option value="XXXXLarge">XXXXLarge</option>
+                                </select>
+                        </td>
+                        <td>
+                            <input name="Sizes[${tableBody.children.length}].Quantity" class="form-control" />
+                        </td>
+                        
+                        <td>
+                            <button type="button" class="btn btn-danger" onclick="removeSizeRow(this)">Remove</button>
+                        </td>`;
+        tableBody.appendChild(newRow);
+    }
+
+    function removeSizeRow(button) {
+        var row = button.parentNode.parentNode;
+        row.parentNode.removeChild(row);
+    }
+</script>

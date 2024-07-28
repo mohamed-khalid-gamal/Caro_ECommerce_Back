@@ -1,0 +1,47 @@
+﻿@model IEnumerable<ProductViewModel>
+
+
+<table class="table" style="padding:20px; margin-top:100px;">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Description</th>
+            <th>Price</th>
+            <th>Images</th>
+            <th>Sizes</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var product in Model)
+        {
+            <tr>
+                <td>@product.Name</td>
+                <td>@product.Description</td>
+                <td>@product.Price</td>
+                <td>
+                    <div class="d-flex flex-wrap">
+                        @foreach (var image in product.Images)
+                        {
+                            <img src="@image.ImageUrl" alt="@image.AltText" class="img-thumbnail mr-2" style="width: 50px; height: 50px;" />
+                        }
+                    </div>
+                </td>
+                <td>
+                    <ul>
+                        @foreach (var size in product.Sizes)
+                        {
+                            <li>@size.Size: @size.Quantity units</li>
+                        }
+                    </ul>
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@product.Id" class="btn btn-primary btn-sm">Edit</a>
+                    <a asp-action="Delete" asp-route-id="@product.Id" class="btn btn-danger btn-sm">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<a asp-action="Create" class="btn btn-success">Create New Product</a>

@@ -1,0 +1,78 @@
+﻿@model IEnumerable<ProductViewModel>
+@{
+	Layout = "_ShopLayout";
+}
+<section id="Products1"
+         class="products">
+    @{
+
+        <div class="pro-container">
+            @foreach (var product in Model)
+            {
+                <a asp-route-Id="@product.Id" asp-action="SingleProduct" asp-controller="Shop">
+                    <div class="pro">
+                        <div class="image">
+                            <img src="@product.Images[0].ImageUrl"
+                                 alt="" />
+                        </div>
+                        <div class="des">
+                            <span>adidas</span>
+                            <h5>@product.Name</h5>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <div class="price">
+                                <h4>@product.Price</h4>
+                                <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                
+
+            }
+
+        </div>
+    }
+    @{
+        int prev = ViewBag.PageNo - 1;
+        if (prev <= 0)
+        {
+            prev = 1;
+        }
+        int next = ViewBag.PageNo + 1;
+        if (next > ViewBag.NoOfPages)  // Corrected logic for the next button
+        {
+            next = ViewBag.NoOfPages;
+        }
+    }
+
+    <ul class="pagination justify-content-center">
+        <li class="page-item">
+            <a class="page-link" href="/Shop/Products?PageNo=@prev">Previous</a>
+        </li>
+        @{
+            for (int i = 1; i <= ViewBag.NoOfPages; i++)
+            {
+                if (i == ViewBag.PageNo)
+                {
+                    <li class="page-item active"><a class="page-link" href="/Shop/Products?PageNo=@i">@i</a></li>
+                    // Added active class to the list item
+                }
+                else
+                {
+                    <li class="page-item"><a class="page-link" href="/Shop/Products?PageNo=@i">@i</a></li>
+                }
+            }
+        }
+
+        <li class="page-item">
+            <a class="page-link" href="/Shop/Products?PageNo=@next">Next</a>
+        </li>
+    </ul>
+
+</section>

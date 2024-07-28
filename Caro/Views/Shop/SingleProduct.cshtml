@@ -1,0 +1,99 @@
+﻿@model ProductViewModel
+@{
+    Layout = "_ShopLayout";
+}
+<section id="pro-details">
+    <div class="images">
+        <img src="@Model.Images[0].ImageUrl"
+             alt=""
+             width="100%"
+              />
+        <div class="alters">
+            @{
+                foreach (var im in @Model.Images.Skip(1))
+                {
+                    <div class="small-img">
+                        <img src="@im.ImageUrl"
+                             alt="" />
+                    </div>
+                }
+            }
+            
+        </div>
+    </div>
+    <div class="details">
+        <h2>@Model.Name</h2>
+        <h2>@Model.Price</h2>
+        <select title="size" class="form-select">
+            <option selected>Select Size</option>
+        @foreach(var s in Model.Sizes)
+        {
+            <option value="@s.Size" >@s.Size</option>
+        }
+        </select>
+        <div class="add">
+            <input title="num"
+                   type="number"
+                   value="1"
+                   name=""
+                   id="" />
+            <button>ADD To cart</button>
+        </div>
+        <h2>Product Details</h2>
+        <p>
+            @Model.Description
+        </p>
+    </div>
+</section>
+<section id="Products1"
+         class="products">
+    <div class="text">
+        <h1>Featured Products</h1>
+        <p>Summer Collection New Modern Design</p>
+    </div>
+    @{
+
+        <div class="pro-container">
+            @{
+                var x = 0;
+            }
+            @foreach(var product in ViewBag.Products){
+            
+                <a asp-route-Id="@product.Id" asp-action="SingleProduct" asp-controller="Shop">
+                <div class="pro">
+                    <div class="image">
+                        <img src="@product.Images[0].ImageUrl"
+                             alt="" />
+                    </div>
+                    <div class="des">
+                        <span>adidas</span>
+                        <h5>@product.Name</h5>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="price">
+                            <h4>@product.Price</h4>
+                            <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                        </div>
+                    </div>
+                </div>
+                </a>
+
+
+                x++;
+                if (x == 7)
+                {
+                    break;
+                }
+
+            }
+
+        </div>
+
+
+    }
+</section>

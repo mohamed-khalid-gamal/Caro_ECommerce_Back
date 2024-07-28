@@ -1,0 +1,32 @@
+﻿@model IEnumerable<Blog>
+
+<h1>Blogs</h1>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">Create New</a>
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Title</th>
+            <th>Description</th>
+            <th>Date</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var blog in Model)
+        {
+            <tr>
+                <td>@blog.Title</td>
+                <td>@blog.Description</td>
+                <td>@blog.Date.ToShortDateString()</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@blog.Id" class="btn btn-warning">Edit</a>
+                    <a asp-action="Delete" asp-route-id="@blog.Id" class="btn btn-danger">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,29 @@
+﻿@model Product
+
+
+<div style="padding:20px; margin-top:100px;">
+    <h3>Are you sure you want to delete this product?</h3>
+    <div>
+        <h4>@Model.Name</h4>
+        <p>@Model.Description</p>
+        <h4>@Model.Price</h4>
+        <p>Sizes:</p>
+        <ul>
+            @foreach (var size in Model.Sizes)
+            {
+                <li>@size.Size: @size.Quantity units </li>
+            }
+        </ul>
+        <p>Images:</p>
+        @foreach (var image in Model.Images)
+        {
+            <img src="@image.ImageUrl" class="img-thumbnail" alt="@image.AltText" style="width: 100px; height: 100px;" />
+        }
+    </div>
+
+    <form asp-action="Delete" method="post">
+        <input type="hidden" asp-for="Id" />
+        <button type="submit" class="btn btn-danger">Delete</button>
+        <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+    </form>
+</div>

@@ -1,0 +1,179 @@
+﻿@model IEnumerable<ProductViewModel>
+@{
+	Layout = "_ShopLayout";
+}
+<section id="hero">
+    <h4>Trade-inoffer</h4>
+    <h1>Super value deals</h1>
+    <h1>On all products</h1>
+    <p>Save more with coupons & Up to 70% off!</p>
+    <a asp-action="Products" asp-controller="Shop">Shop Now</a>
+</section>
+<section id="features">
+    <div class="feature">
+        <img src="~/img/features/f1.png"
+             alt="" />
+        <h6>Free Shiping</h6>
+    </div>
+    <div class="feature">
+        <img src="~/img/features/f2.png"
+             alt="" />
+        <h6>Online Order</h6>
+    </div>
+    <div class="feature">
+        <img src="~/img/features/f3.png"
+             alt="" />
+        <h6>Save Money</h6>
+    </div>
+    <div class="feature">
+        <img src="~/img/features/f4.png"
+             alt="" />
+        <h6>Pormotions</h6>
+    </div>
+    <div class="feature">
+        <img src="~/img/features/f5.png"
+             alt="" />
+        <h6>Happy Sell</h6>
+    </div>
+    <div class="feature">
+        <img src=@Url.Content("~/img/features/f6.png")
+             alt="" />
+        <h6>F24/7 Support</h6>
+    </div>
+</section>
+<section id="Products1"
+         class="products">
+    <div class="text">
+        <h1>Featured Products</h1>
+        <p>Summer Collection New Modern Design</p>
+    </div>
+    @{
+        
+            <div class="pro-container">
+            @{var i = 0;}
+            @foreach(var product in Model)
+            {
+                <a asp-route-Id="@product.Id" asp-action="SingleProduct" asp-controller="Shop">
+                <div class="pro">
+                    <div class="image">
+                        <img src="@product.Images[0].ImageUrl"
+                             alt="" />
+                    </div>
+                    <div class="des">
+                        <span>adidas</span>
+                        <h5>@product.Name</h5>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="price">
+                            <h4>@product.Price</h4>
+                            <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                        </div>
+                    </div>
+                </div>
+                </a>
+
+               
+                    i++;
+                    if (i == 7)
+                    {
+                        break;
+                    }
+                
+            }
+            
+            </div>
+        
+        
+    }
+    
+</section>
+<section id="banner">
+    <h4>Repair Services</h4>
+    <h1>UP TO <span>70% OFF</span>- All t-Shirts & Accessories</h1>
+    <button>Explore More</button>
+</section>
+<section id="Products2"
+         class="products">
+    <div class="text">
+        <h1>New Arrivals</h1>
+        <p>Summer Collection New Modern Design</p>
+    </div>
+
+    @{
+
+        <div class="pro-container">
+            @{
+                var x = 0;
+            }
+            @foreach (var product in Model)
+            {
+                <a asp-route-Id="@product.Id" asp-action="SingleProduct" asp-controller="Shop">
+
+                <div class="pro">
+                    <div class="image">
+                        <img src="@product.Images[0].ImageUrl"
+                             alt="" />
+                    </div>
+                    <div class="des">
+                        <span>adidas</span>
+                        <h5>@product.Name</h5>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="price">
+                            <h4>@product.Price</h4>
+                            <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                        </div>
+                    </div>
+                </div>
+                </a>
+
+
+                x++;
+                if (x == 7)
+                {
+                    break;
+                }
+
+            }
+
+        </div>
+
+
+    }
+</section>
+<section id="bannels">
+    <div class="bannel1 bannel">
+        <h4>crazy Deals</h4>
+        <h2>buy 1 get 1 free</h2>
+        <p>the best classic dress is on sale at casa</p>
+        <a asp-action="Products" asp-controller="Shop"><button>Learn more</button></a>
+    </div>
+    <div class="bannel2 bannel">
+        <h4>spring/summer</h4>
+        <h2>Upcommming Season</h2>
+        <p>the best classic dress is on sale at casa</p>
+        <a asp-action="Products" asp-controller="Shop"><button>Collection</button></a>
+    </div>
+    <div class="bannel3 bannel">
+        <h3>SEASONAL SALE</h3>
+        <p>Winter collection Off</p>
+    </div>
+    <div class="bannel4 bannel">
+        <h3> NEW FOOTWEAR COLLLECTION</h3>
+        <p>spring / summer 2022</p>
+    </div>
+    <div class="bannel5 bannel">
+        <h3>T-SHIRTs</h3>
+        <p>New trending shirts</p>
+    </div>
+</section>
