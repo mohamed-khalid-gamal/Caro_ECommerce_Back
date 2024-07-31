@@ -1,9 +1,13 @@
 ﻿using Caro.Models;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.VisualStudio.Web.CodeGenerators.Mvc.Templates.General;
+using Caro.Models;
+using Microsoft.AspNetCore.Identity;
 
-namespace caro.Data
+namespace Caro.Data
 {
-    public class ApplicationDbContext : DbContext
+    public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
         {
@@ -27,7 +31,15 @@ namespace caro.Data
             .HasMany(p => p.Images)
             .WithOne(pi => pi.Product)
             .HasForeignKey(pi => pi.ProductId);
-            
+            modelBuilder.Entity<ApplicationUser>().ToTable("Users", "Security");
+            modelBuilder.Entity<IdentityRole>().ToTable("Roles", "Security");
+            modelBuilder.Entity<IdentityUserRole<string>>().ToTable("UserRoles", "Security");
+            modelBuilder.Entity<IdentityUserClaim<string>>().ToTable("UserClaims", "Security");
+            modelBuilder.Entity<IdentityUserLogin<string>>().ToTable("UserLogins", "Security");
+            modelBuilder.Entity<IdentityRoleClaim<string>>().ToTable("RoleClaim", "Security");
+            modelBuilder.Entity<IdentityUserToken<string>>().ToTable("UserTokens", "Security");
+
         }
+        
     }
 }

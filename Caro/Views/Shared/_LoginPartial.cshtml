@@ -1,0 +1,70 @@
+﻿@using Microsoft.AspNetCore.Identity
+@using Caro.Models;
+@inject SignInManager<ApplicationUser> SignInManager
+@inject UserManager<ApplicationUser> UserManager
+<style>
+    .avatar{
+        height:40px;
+        width:40px;
+        object-fit:cover;
+    }
+    .navbar-nav{
+       
+    display: flex;
+    flex-direction: row;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    gap: 20px;
+    }
+</style>
+<ul class="navbar-nav flex-row " style=" align-items:center;justify-content:space-between ;">
+    
+@if (SignInManager.IsSignedIn(User))
+
+{
+    
+        var pic = UserManager.GetUserAsync(User).Result.ProfilePicture;
+        @if( pic != null)
+        {
+            <li class="nav-item">
+                <a class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage"><img class="rounded-circle avatar"src="data:image/*;base64,@(Convert.ToBase64String(pic))" alt="Alternate Text" /></a>
+            </li>
+        }else{
+            
+                <li class="nav-item">
+                    <a class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage">
+                        <img src="~/dash/images/profile/user-1.jpg"
+                             alt=""
+                             width="35"
+                             height="35"
+                             class="rounded-circle" />
+                    </a>
+                </li>
+            
+            
+        }
+        <li class="nav-item">
+        <a  class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage"> @User.Identity?.Name</a>
+    </li>
+    
+            <li class="nav-item">
+                <form class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Products", new { area = "" })">
+                <button type="submit" class="nav-link btn btn-danger text-white p-2" style="background-color: #dc3545; border-color: #dc3545;padding:10px 15px; line-height:unset ; height:fit-content">
+                    Logout
+                </button>
+                </form>
+            </li>
+   
+    
+}
+else
+{
+    <li class="nav-item">
+        <a class="nav-link btn btn-primary p-2 text-white" asp-area="Identity" asp-page="/Account/Register">Register</a>
+    </li>
+    <li class="nav-item">
+            <a class="nav-link  btn btn-primary p-2 text-white" asp-area="Identity" asp-page="/Account/Login">Login</a>
+    </li>
+}
+</ul>

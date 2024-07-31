@@ -1,14 +1,15 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.EntityFrameworkCore;
+using Caro.Data;
+using Caro.Models;
 
 namespace Caro.Controllers
 {
-    using caro.Data;
-    using Caro.Models;
-    using Microsoft.AspNetCore.Mvc;
-    using Microsoft.EntityFrameworkCore;
-    using System.Linq;
-    using System.Threading.Tasks;
-
     public class BlogsController : Controller
     {
         private readonly ApplicationDbContext _context;
@@ -18,23 +19,42 @@ namespace Caro.Controllers
             _context = context;
         }
 
+        // GET: Blogs
         public async Task<IActionResult> Index()
         {
-            var blogs = await _context.Blogs
-                .Include(b => b.Comments)
-                .Include(b => b.RelatedBlogs)
-                .ToListAsync();
-            return View(blogs);
+            return View(await _context.Blogs.ToListAsync());
         }
 
+        // GET: Blogs/Details/5
+        public async Task<IActionResult> Details(int? id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+
+            var blog = await _context.Blogs
+                .FirstOrDefaultAsync(m => m.Id == id);
+            if (blog == null)
+            {
+                return NotFound();
+            }
+
+            return View(blog);
+        }
+
+        // GET: Blogs/Create
         public IActionResult Create()
         {
             return View();
         }
 
+        // POST: Blogs/Create
+        // To protect from overposting attacks, enable the specific properties you want to bind to.
+        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create(Blog blog)
+        public async Task<IActionResult> Create([Bind("Id,Title,Description,ProfilePicture,Date")] Blog blog)
         {
             if (ModelState.IsValid)
             {
@@ -45,8 +65,14 @@ namespace Caro.Controllers
             return View(blog);
         }
 
-        public async Task<IActionResult> Edit(int id)
+        // GET: Blogs/Edit/5
+        public async Task<IActionResult> Edit(int? id)
         {
+            if (id == null)
+            {
+                return NotFound();
+            }
+
             var blog = await _context.Blogs.FindAsync(id);
             if (blog == null)
             {
@@ -55,9 +81,12 @@ namespace Caro.Controllers
             return View(blog);
         }
 
+        // POST: Blogs/Edit/5
+        // To protect from overposting attacks, enable the specific properties you want to bind to.
+        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, Blog blog)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Title,Description,ProfilePicture,Date")] Blog blog)
         {
             if (id != blog.Id)
             {
@@ -77,20 +106,26 @@ namespace Caro.Controllers
                     {
                         return NotFound();
                     }
-                    throw;
+                    else
+                    {
+                        throw;
+                    }
                 }
                 return RedirectToAction(nameof(Index));
             }
             return View(blog);
         }
 
-        public async Task<IActionResult> Delete(int id)
+        // GET: Blogs/Delete/5
+        public async Task<IActionResult> Delete(int? id)
         {
-            var blog = await _context.Blogs
-                .Include(b => b.Comments)
-                .Include(b => b.RelatedBlogs)
-                .FirstOrDefaultAsync(b => b.Id == id);
+            if (id == null)
+            {
+                return NotFound();
+            }
 
+            var blog = await _context.Blogs
+                .FirstOrDefaultAsync(m => m.Id == id);
             if (blog == null)
             {
                 return NotFound();
@@ -99,12 +134,17 @@ namespace Caro.Controllers
             return View(blog);
         }
 
+        // POST: Blogs/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
             var blog = await _context.Blogs.FindAsync(id);
-            _context.Blogs.Remove(blog);
+            if (blog != null)
+            {
+                _context.Blogs.Remove(blog);
+            }
+
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
@@ -114,5 +154,4 @@ namespace Caro.Controllers
             return _context.Blogs.Any(e => e.Id == id);
         }
     }
-
 }

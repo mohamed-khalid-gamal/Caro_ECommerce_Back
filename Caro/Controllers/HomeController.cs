@@ -1,6 +1,6 @@
-using Caro.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
+using Caro.Models;
 
 namespace Caro.Controllers
 {

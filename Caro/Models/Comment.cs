@@ -7,11 +7,15 @@ namespace Caro.Models
         public int Id { get; set; }
 
         [Required]
-        public string Author { get; set; }
+        public ApplicationUser Author { get; set; }
 
         [Required]
         public string Content { get; set; }
 
         public DateTime Date { get; set; }
+        public Comment()
+        {
+            Date = DateTime.Now;
+        }
     }
 }

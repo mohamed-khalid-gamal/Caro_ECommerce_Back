@@ -15,13 +15,12 @@
         [Required]
         public string Description { get; set; }
 
-        public string ImageUrl { get; set; }
+        public byte[] ProfilePicture { get; set; }
 
         public DateTime Date { get; set; }
 
         public List<Comment> Comments { get; set; } = new List<Comment>();
 
-        public List<Blog> RelatedBlogs { get; set; } = new List<Blog>();
     }
 
 

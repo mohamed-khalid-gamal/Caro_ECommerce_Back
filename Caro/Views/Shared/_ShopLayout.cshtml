@@ -42,6 +42,14 @@
                 <li><a asp-controller="Shop" asp-action="Blogs"> Blogs</a></li>
                 <li><a asp-controller="Shop" asp-action="About">About</a></li>
                 <li><a asp-controller="Shop" asp-action="Contact">Contact</a></li>
+                @{
+                    if (User.IsInRole("Admin"))
+                    {
+                        
+                <li><a asp-controller="Products" asp-action="Dash">Dash Board</a></li>
+                    }
+
+                }
                 <li>
                     <a href="cart.html"
                        class="bag"><i class="fa fa-shopping-bag"></i></a>
@@ -49,6 +57,9 @@
                 <i class="fa-solid fa-xmark close"></i>
             </ul>
             <i class="fa-solid fa-bars bar"></i>
+            <partial name="_LoginPartial" />
+
+            
         </section>
         @RenderBody();
         <section id="new-sletter">

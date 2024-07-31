@@ -1,10 +1,12 @@
-﻿using caro.Data;
+﻿using Caro.Data;
 using Caro.Models;
 using Caro.ViewModels;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 namespace Caro.Controllers
 {
+    [Authorize(Roles = "Admin")]
     public class ProductsController : Controller
     {
         private readonly ApplicationDbContext _context;
@@ -112,7 +114,10 @@ namespace Caro.Controllers
             {
                 return NotFound();
             }
-
+            List<IFormFile> imgs = new List<IFormFile>() ;
+            foreach (var image in product.Images) {
+                imgs.Add(GetLocalImageAsFormFile(image.ImageUrl));
+            }
             var model = new ProductViewModel
             {
                 Id = product.Id,
@@ -124,14 +129,15 @@ namespace Caro.Controllers
                     Id = s.Id,
                     Size = s.Size,
                     Quantity = s.Quantity,
-                   
+
                 }).ToList(),
                 Images = product.Images.Select(i => new ProductImageViewModel
                 {
                     Id = i.Id,
                     ImageUrl = i.ImageUrl,
                     AltText = i.AltText
-                }).ToList()
+                }).ToList(),
+                ImageFiles = imgs
             };
 
             return View(model);
@@ -304,7 +310,6 @@ namespace Caro.Controllers
             {
                 Directory.CreateDirectory(uploadsFolder);
             }
-
             var uniqueFileName = Guid.NewGuid().ToString() + "_" + imageFile.FileName;
             var filePath = Path.Combine(uploadsFolder, uniqueFileName);
 
@@ -314,6 +319,50 @@ namespace Caro.Controllers
             }
 
             return "/uploads/" + uniqueFileName;
+        }
+        private IFormFile GetLocalImageAsFormFile(string localImagePath)
+        {
+            var fullPath = "C:\\Users\\hp zbook\\Desktop\\Caro - Copy\\Caro\\wwwroot" + localImagePath.Replace('/','\\');
+
+            if (!System.IO.File.Exists(fullPath))
+            {
+                throw new FileNotFoundException("File not found", fullPath);
+            }
+
+            var fileInfo = new FileInfo(fullPath);
+            var memoryStream = new MemoryStream();
+
+            using (var stream = fileInfo.OpenRead())
+            {
+                stream.CopyTo(memoryStream);
+            }
+
+            memoryStream.Position = 0;
+            var x = Path.GetExtension(localImagePath);
+
+            var formFile = new FormFile(memoryStream, 0, memoryStream.Length, "image", fileInfo.Name)
+            {
+                Headers = new HeaderDictionary(),
+                ContentType = x
+            };
+
+            return formFile;
+            //var fileInfo = new FileInfo(upload);
+            //var memoryStream = new MemoryStream();
+            //using (var stream = fileInfo.OpenRead())
+            //{
+            //    stream.CopyTo(memoryStream);
+            //}
+            //memoryStream.Position = 0;
+            //var x = Path.GetExtension(localImagePath);
+            //var formFile = new FormFile(memoryStream, 0, memoryStream.Length, "image", fileInfo.Name)
+            //{
+
+            //    Headers = new HeaderDictionary(),
+            //    ContentType = x
+            //};
+
+            //return formFile;
         }
     }
 

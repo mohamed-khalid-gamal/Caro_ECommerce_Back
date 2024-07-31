@@ -1,0 +1,32 @@
+﻿@model IEnumerable<UserViewModel>
+@{
+    Layout = "_DashLayout";
+}
+
+<h1 style="margin-top:100px">Users</h1>
+<table class="table table-striped">
+    <thead >
+        <tr class=" bg-primary mt-3" style="background-color:darkblue">
+            <td class="text-black">First Name</td>
+            <td class="text-black">Last Name</td>
+            <td class="text-black">Email</td>
+            <td class="text-black">Roles</td>
+            <td class="text-black">Actions</td>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var user in Model)
+        {
+         <tr>
+             <td>@user.FirstName</td>
+             <td>@user.LastName</td>
+             <td>@user.Email</td>
+                <td>@string.Join(" , ", user.Roles)
+                </td>
+                <td>
+                    <a class="btn btn-primary" asp-action="ManageUSer" asp-controller="User" asp-route-Id="@user.Id">Manage User</a>
+                </td>
+         </tr>   
+        }
+    </tbody>
+</table>

@@ -1,0 +1,30 @@
+﻿@using Microsoft.AspNetCore.Identity
+@model IEnumerable<IdentityRole>
+@{
+    ViewData["Title"] = "Roles";
+}
+@{
+    Layout = "_DashLayout";
+}
+
+<h1 style="margin-top:100px">Roles</h1>
+<partial name="_RoleForm" model="new RoleFormViewModel()"/>
+<table class="table table-striped mt-4">
+    <thead>
+        <tr class="bg-primary text-white">
+            <td class="text-black">Id</td>
+            <td class="text-black">Role</td>
+        </tr>
+    </thead>
+    @foreach(var x in Model)
+    {
+        <tr>
+            <td>@x.Id</td>
+            <td>@x.Name</td>
+        </tr>
+    }
+    
+</table>
+
+    <partial name="_ValidationScriptsPartial" />
+

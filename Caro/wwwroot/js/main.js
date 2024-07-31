@@ -17,23 +17,30 @@ if (bars || close) {
 }
 for (i = 0; i < 6; i++) {
     if (
-        location.pathname.includes(
-            navs[i].textContent.toLocaleLowerCase().trim(" "),
-        )
-    ) {
-        navs.forEach((x) => x.classList.remove("active"));
-        navs[i].classList.add("active");
-        break;
-    } else if (
-        location.pathname.includes("index") ||
-        location.href == "https://mohamed-khalid1907.github.io/Caro/"
+        location.pathname.includes("/Shop/Index")
     ) {
         navs.forEach((x) => x.classList.remove("active"));
         navs[0].classList.add("active");
         break;
-    } else if (location.pathname.includes("sproduct")) {
+    } else if (location.pathname.includes("/Shop/Products")) {
         navs.forEach((x) => x.classList.remove("active"));
         navs[1].classList.add("active");
+        break;
+    }else if (location.pathname.includes("/Shop/Blogs")) {
+        navs.forEach((x) => x.classList.remove("active"));
+        navs[2].classList.add("active");
+        break;
+    }else if (location.pathname.includes("/Shop/About")) {
+        navs.forEach((x) => x.classList.remove("active"));
+        navs[3].classList.add("active");
+        break;
+    }else if (location.pathname.includes("/Shop/Contact")) {
+        navs.forEach((x) => x.classList.remove("active"));
+        navs[4].classList.add("active");
+        break;
+    }else if (location.pathname.includes("/Shop/Cart")) {
+        navs.forEach((x) => x.classList.remove("active"));
+        navs[5].classList.add("active");
         break;
     }
 }
