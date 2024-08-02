@@ -40,7 +40,7 @@ for (i = 0; i < 6; i++) {
         break;
     }else if (location.pathname.includes("/Cart")) {
         navs.forEach((x) => x.classList.remove("active"));
-        navs[6].classList.add("active");
+        navs[navs.length-1].classList.add("active");
         break;
     }
 }

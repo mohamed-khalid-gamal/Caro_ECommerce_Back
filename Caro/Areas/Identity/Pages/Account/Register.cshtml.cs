@@ -105,6 +105,7 @@ namespace Caro.Areas.Identity.Pages.Account
             [Compare("Password", ErrorMessage = "The password and confirmation password do not match.")]
             public string ConfirmPassword { get; set; }
             [Display(Name = "Profile Picture")]
+            [Required(ErrorMessage = "You must upload Profile Picture")]
             public IFormFile ProfilePicture { get; set; }
         }
 
@@ -128,6 +129,10 @@ namespace Caro.Areas.Identity.Pages.Account
                     await Input.ProfilePicture.CopyToAsync(memoryStream);
                     profilePictureData = memoryStream.ToArray();
                 }
+            }
+            else
+            {
+
             }
             if (ModelState.IsValid)
             {
