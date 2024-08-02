@@ -1,16 +1,18 @@
-﻿@model ProductViewModel
+﻿@model ShoppingCart
 @{
     Layout = "_ShopLayout";
 }
+<form asp-action="AddToCart" asp-controller="Cart" method="post">
+    
 <section id="pro-details">
     <div class="images">
-        <img src="@Model.Images[0].ImageUrl"
+        <img src="@Model.Product.Images.First().ImageUrl"
              alt=""
              width="100%"
               />
         <div class="alters">
             @{
-                foreach (var im in @Model.Images.Skip(1))
+                foreach (var im in @Model.Product.Images.Skip(1))
                 {
                     <div class="small-img">
                         <img src="@im.ImageUrl"
@@ -22,29 +24,36 @@
         </div>
     </div>
     <div class="details">
-        <h2>@Model.Name</h2>
-        <h2>@Model.Price</h2>
-        <select title="size" class="form-select">
-            <option selected>Select Size</option>
-        @foreach(var s in Model.Sizes)
+        <h2>@Model.Product.Name</h2>
+        <h2>@Model.Product.Price</h2>
+        <select title="size" class="form-select" asp-for="@Model.Size" id="size-select">
+        @foreach(var s in Model.Product.Sizes)
         {
-            <option value="@s.Size" >@s.Size</option>
+            <option value="@s.Size" data-quantity="@s.Quantity">@s.Size (Available: @s.Quantity)</option>
         }
         </select>
         <div class="add">
             <input title="num"
+                asp-for="@Model.Count"
                    type="number"
-                   value="1"
-                   name=""
-                   id="" />
-            <button>ADD To cart</button>
+                       name="quantity" 
+                       value="1" 
+                       min="1" 
+                       id="quantity-input"/>
+            <button type="submit" 
+                    asp-action="AddToCart" 
+                    asp-controller="Cart"
+                    asp-route-id="@Model.ProductId"
+                    id="add-to-cart-button"
+                    >ADD To cart</button>
         </div>
         <h2>Product Details</h2>
         <p>
-            @Model.Description
+            @Model.Product.Description
         </p>
     </div>
 </section>
+</form>
 <section id="Products1"
          class="products">
     <div class="text">
@@ -77,12 +86,11 @@
                         </div>
                         <div class="price">
                             <h4>@product.Price</h4>
-                            <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                                <a asp-route-Id="@product.Id" asp-action="SingleProduct" asp-controller="Shop"><i class="fa-solid fa-cart-shopping"></i></a>
                         </div>
                     </div>
                 </div>
                 </a>
-
 
                 x++;
                 if (x == 7)
@@ -97,3 +105,28 @@
 
     }
 </section>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const sizeSelect = document.getElementById('size-select');
+            const quantityInput = document.getElementById('quantity-input');
+            const addToCartButton = document.getElementById('add-to-cart-button');
+
+            function checkQuantity() {
+                const selectedOption = sizeSelect.options[sizeSelect.selectedIndex];
+                const availableQuantity = parseInt(selectedOption.getAttribute('data-quantity'));
+                const selectedQuantity = parseInt(quantityInput.value);
+
+                if (selectedQuantity > availableQuantity) {
+                    addToCartButton.disabled = true;
+                    alert(`Only ${availableQuantity} items available in this size.`);
+                } else {
+                    addToCartButton.disabled = false;
+                }
+            }
+
+            sizeSelect.addEventListener('change', checkQuantity);
+            quantityInput.addEventListener('input', checkQuantity);
+        });
+    </script>
+

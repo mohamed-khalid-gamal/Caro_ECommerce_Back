@@ -38,9 +38,9 @@ for (i = 0; i < 6; i++) {
         navs.forEach((x) => x.classList.remove("active"));
         navs[4].classList.add("active");
         break;
-    }else if (location.pathname.includes("/Shop/Cart")) {
+    }else if (location.pathname.includes("/Cart")) {
         navs.forEach((x) => x.classList.remove("active"));
-        navs[5].classList.add("active");
+        navs[6].classList.add("active");
         break;
     }
 }

@@ -1,0 +1,52 @@
+﻿@model List<ShoppingCart>
+@{
+    Layout = "_DashLayout";
+}
+<link rel="stylesheet" href="~/css/style.css" />
+<section id="cart">
+    <table>
+        <thead>
+            <tr>
+                <td>shipped</td>
+                <td>User</td>
+                <td>Image</td>
+                <td>Product</td>
+                <td>Price</td>
+                <td>Quantity</td>
+                <td>SubTotal</td>
+            </tr>
+        </thead>
+        <tbody>
+            @{
+                foreach (var cart in Model)
+                {
+                    <tr>
+                        <td>
+                            <a asp-action="RemoveCart" asp-route-id="@cart.Id"><i class="fa-solid fa-dolly"></i></a>
+                        </td>
+                        <td>@cart.ApplicationUser</td>
+                        <td>
+                            @{
+                                // Check if the Images list is not null or empty
+                                if (cart.Product.Images != null && cart.Product.Images.Count > 0)
+                                {
+                                    <img src="@cart.Product.Images[0].ImageUrl" alt="Product Image" />
+                                }
+                                else
+                                {
+                                    <img src="~/images/default.png" alt="Default Image" /> <!-- Use a default image -->
+                                }
+                            }
+                        </td>
+                        <td>@cart.Product.Name</td>
+                        <td>@cart.Product.Price $</td>
+                        <td>
+                            <input type="number" disabled name="" id="" value="@cart.Count" />
+                        </td>
+                        <td>@(cart.Count * cart.Product.Price)</td>
+                    </tr>
+                }
+            }
+        </tbody>
+    </table>
+</section>

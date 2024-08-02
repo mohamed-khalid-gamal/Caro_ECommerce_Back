@@ -1,5 +1,8 @@
 ﻿using Caro.Data;
+using Caro.Models;
 using Caro.ViewModels;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Hosting;
@@ -11,10 +14,14 @@ namespace Caro.Controllers
     {
         private readonly ApplicationDbContext _context;
         private readonly IWebHostEnvironment _hostEnvironment;
-        public ShopController(ApplicationDbContext context, IWebHostEnvironment hostEnvironment)
+        private readonly UserManager<ApplicationUser> _userManager;
+        private readonly SignInManager<ApplicationUser> _signInManager;
+        public ShopController(ApplicationDbContext context, IWebHostEnvironment hostEnvironment, UserManager<ApplicationUser> userManager, SignInManager<ApplicationUser> signInManager)
         {
             _context = context;
             _hostEnvironment = hostEnvironment;
+            _userManager = userManager;
+            _signInManager = signInManager;
         }
         public async Task<IActionResult> Index()
         {
@@ -109,6 +116,7 @@ namespace Caro.Controllers
         {
             return View();
         }
+        [Authorize]
         public async Task<IActionResult> SingleProduct(int? Id)
         {
             var product = await _context.Products
@@ -120,26 +128,14 @@ namespace Caro.Controllers
             {
                 return NotFound();
             }
-
-            var model = new ProductViewModel
+            ShoppingCart model = new ShoppingCart()
             {
-                Id = product.Id,
-                Name = product.Name,
-                Description = product.Description,
-                Price = product.Price,
-                Sizes = product.Sizes.Select(s => new ProductSizeViewModel
-                {
-                    Id = s.Id,
-                    Size = s.Size,
-                    Quantity = s.Quantity,
-                    
-                }).ToList(),
-                Images = product.Images.Select(i => new ProductImageViewModel
-                {
-                    Id = i.Id,
-                    ImageUrl = i.ImageUrl,
-                    AltText = i.AltText
-                }).ToList()
+                
+                Product = product,
+                Count = 1,
+                ProductId = product.Id,
+                ApplicationUser = await _userManager.GetUserAsync(User),
+                ApplicationUserId =  _userManager.GetUserAsync(User).Result.Id
             };
             ViewBag.Products=_context.Products.Include(p=>p.Sizes).Include(p=>p.Images);
             return View(model);

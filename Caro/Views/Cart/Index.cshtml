@@ -1,0 +1,101 @@
+﻿@model List<ShoppingCart>
+
+<section id="about-header" class="h">
+    <h2>#cart</h2>
+    <p>Add your coupon and save up to 70%.</p>
+</section>
+
+<section id="cart">
+    <table>
+        <thead>
+            <tr>
+                <td>Remove</td>
+                <td>Image</td>
+                <td>Product</td>
+                <td>Price</td>
+                <td>Quantity</td>
+                <td>SubTotal</td>
+            </tr>
+        </thead>
+        <tbody>
+            @{
+                if (Model.Count > 0&&Model!=null)
+                {
+                foreach (var cart in Model)
+                {
+                    <tr>
+                        <td>
+                            <a asp-action="RemoveCart" asp-route-id="@cart.Id"><i class="far fa-times-circle text-danger"></i></a>
+                        </td>
+                        <td>
+                            @{
+                                // Check if the Images list is not null or empty
+                                if (cart.Product.Images != null && cart.Product.Images.Count > 0)
+                                {
+                                    <img src="@cart.Product.Images[0].ImageUrl" alt="Product Image" />
+                                }
+                                else
+                                {
+                                    <img src="~/images/default.png" alt="Default Image" /> <!-- Use a default image -->
+                                }
+                            }
+                        </td>
+                        <td>@cart.Product.Name</td>
+                        <td>@cart.Product.Price $</td>
+                        <td>
+                            <input type="number" disabled name="" id="" value="@cart.Count" />
+                        </td>
+                        <td>@(cart.Count * cart.Product.Price)</td>
+                    </tr>
+                }
+                }
+            }
+        </tbody>
+    </table>
+</section>
+
+<section id="cart-add">
+    <div class="coupon">
+        <h3>Apply coupon</h3>
+        <div>
+            <input type="text" placeholder="Enter your coupon" />
+            <button>Apply</button>
+        </div>
+    </div>
+    <div class="subtotal">
+        <h3>cart total</h3>
+        <table>
+            <tr>
+                <td>cart subtotal</td>
+                <td>
+                    $ @{
+                        decimal total = 0;
+                        if (Model.Count > 0 && Model != null)
+                        {
+                            foreach (var cart in Model)
+                            {
+
+                                total += cart.Count * cart.Product.Price;
+                            }
+                        }
+                        @total
+                    }</td>
+            </tr>
+            <tr>
+                <td>Shipping</td>
+                <td>free</td>
+            </tr>
+            <tr>
+                <td><strong>Total</strong></td>
+                <td>
+                    <strong>
+                        $  @{
+                            @total
+                        }
+                    </strong>
+                </td>
+            </tr>
+        </table>
+        <button>proceed to checkout</button>
+    </div>
+</section>

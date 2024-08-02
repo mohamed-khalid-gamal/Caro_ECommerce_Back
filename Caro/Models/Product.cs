@@ -14,8 +14,8 @@ namespace Caro.Models
 
 
         // Navigation property for related ProductSizes
-        public ICollection<ProductSize> Sizes { get; set; } = new List<ProductSize>();
-        public ICollection<ProductImage> Images { get; set; } = new List<ProductImage>();
+        public List<ProductSize> Sizes { get; set; } = new List<ProductSize>();
+        public List<ProductImage> Images { get; set; } = new List<ProductImage>();
 
     }
 }

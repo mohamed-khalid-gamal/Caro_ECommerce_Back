@@ -5,8 +5,11 @@ using Microsoft.EntityFrameworkCore;
 using System.IO;
 using System;
 using Caro.Data;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
 namespace Caro.Controllers
 {
+    [Authorize(Roles ="Admin")]
     public class ProductsController : Controller
     {
         private readonly ApplicationDbContext _context;
@@ -19,6 +22,32 @@ namespace Caro.Controllers
         public async Task<IActionResult> Dash()
         {
             return View();
+        }
+        public IActionResult RemoveCart(int? id)
+        {
+            var cart = _context.ShoppingCarts.FirstOrDefault(c => c.Id == id);
+            if (cart == null) {
+                return NotFound();
+                
+            }
+            _context.ShoppingCarts.Remove(cart);
+            _context.SaveChanges();
+            var carts = _context.ShoppingCarts
+                .Include(c => c.Product)
+                    .ThenInclude(p => p.Images).Include(e => e.ApplicationUser)// Include images
+                .ToList();
+            return View("Cart",carts);
+        }
+        public async Task<IActionResult> Cart()
+        {
+           // Use async version for better performance
+            var carts = _context.ShoppingCarts
+                .Include(c => c.Product)
+                    .ThenInclude(p => p.Images)
+                    .Include(e=>e.ApplicationUser)// Include image
+                .ToList();
+
+            return View(carts);
         }
         // Display the list of products
         public async Task<IActionResult> Index()

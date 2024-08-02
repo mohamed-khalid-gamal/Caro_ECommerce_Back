@@ -74,7 +74,7 @@
                         </div>
                         <div class="price">
                             <h4>@product.Price</h4>
-                            <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                            <a asp-route-Id="@product.Id" asp-action="SingleProduct" asp-controller="Shop"><i class="fa-solid fa-cart-shopping"></i></a>
                         </div>
                     </div>
                 </div>
@@ -131,7 +131,7 @@
                         </div>
                         <div class="price">
                             <h4>@product.Price</h4>
-                            <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                            <a asp-route-Id="@product.Id" asp-action="SingleProduct" asp-controller="Shop"><i class="fa-solid fa-cart-shopping"></i></a>
                         </div>
                     </div>
                 </div>

@@ -507,9 +507,7 @@ C:\Users\hp zbook\Desktop\Caro - Copy\Caro\obj\Debug\net8.0\staticwebassets\msbu
 C:\Users\hp zbook\Desktop\Caro - Copy\Caro\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Caro.props
 C:\Users\hp zbook\Desktop\Caro - Copy\Caro\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Caro.props
 C:\Users\hp zbook\Desktop\Caro - Copy\Caro\obj\Debug\net8.0\staticwebassets.pack.json
-C:\Users\hp zbook\Desktop\Caro - Copy\Caro\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\hp zbook\Desktop\Caro - Copy\Caro\obj\Debug\net8.0\scopedcss\bundle\Caro.styles.css
-C:\Users\hp zbook\Desktop\Caro - Copy\Caro\obj\Debug\net8.0\scopedcss\projectbundle\Caro.bundle.scp.css
 C:\Users\hp zbook\Desktop\Caro - Copy\Caro\obj\Debug\net8.0\Caro.csproj.Up2Date
 C:\Users\hp zbook\Desktop\Caro - Copy\Caro\obj\Debug\net8.0\Caro.dll
 C:\Users\hp zbook\Desktop\Caro - Copy\Caro\obj\Debug\net8.0\refint\Caro.dll
@@ -551,19 +549,6 @@ C:\Users\hp zbook\Desktop\Caro - Copy\Caro\bin\Debug\net8.0\runtimes\win-x64\nat
 C:\Users\hp zbook\Desktop\Caro - Copy\Caro\bin\Debug\net8.0\runtimes\win-x86\native\e_sqlite3.dll
 C:\Users\hp zbook\Desktop\Caro - Copy\Caro\obj\Debug\net8.0\Caro.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\hp zbook\Desktop\Caro - Copy\Caro\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.Google.dll
-F:\uploaded\Caro_ECommerce_Back\Caro\obj\Debug\net8.0\Caro.csproj.AssemblyReference.cache
-F:\uploaded\Caro_ECommerce_Back\Caro\obj\Debug\net8.0\Caro.GeneratedMSBuildEditorConfig.editorconfig
-F:\uploaded\Caro_ECommerce_Back\Caro\obj\Debug\net8.0\Caro.AssemblyInfoInputs.cache
-F:\uploaded\Caro_ECommerce_Back\Caro\obj\Debug\net8.0\Caro.AssemblyInfo.cs
-F:\uploaded\Caro_ECommerce_Back\Caro\obj\Debug\net8.0\Caro.csproj.CoreCompileInputs.cache
-F:\uploaded\Caro_ECommerce_Back\Caro\obj\Debug\net8.0\Caro.MvcApplicationPartsAssemblyInfo.cs
-F:\uploaded\Caro_ECommerce_Back\Caro\obj\Debug\net8.0\Caro.MvcApplicationPartsAssemblyInfo.cache
-F:\uploaded\Caro_ECommerce_Back\Caro\obj\Debug\net8.0\Caro.RazorAssemblyInfo.cache
-F:\uploaded\Caro_ECommerce_Back\Caro\obj\Debug\net8.0\Caro.RazorAssemblyInfo.cs
-F:\uploaded\Caro_ECommerce_Back\Caro\obj\Debug\net8.0\Caro.sourcelink.json
-F:\uploaded\Caro_ECommerce_Back\Caro\obj\Debug\net8.0\Caro.dll
-F:\uploaded\Caro_ECommerce_Back\Caro\obj\Debug\net8.0\refint\Caro.dll
-F:\uploaded\Caro_ECommerce_Back\Caro\obj\Debug\net8.0\Caro.pdb
 F:\uploaded\Caro_ECommerce_Back\Caro\bin\Debug\net8.0\appsettings.Development.json
 F:\uploaded\Caro_ECommerce_Back\Caro\bin\Debug\net8.0\appsettings.json
 F:\uploaded\Caro_ECommerce_Back\Caro\bin\Debug\net8.0\Caro.staticwebassets.runtime.json
@@ -833,6 +818,16 @@ F:\uploaded\Caro_ECommerce_Back\Caro\bin\Debug\net8.0\runtimes\win\lib\net7.0\Sy
 F:\uploaded\Caro_ECommerce_Back\Caro\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
 F:\uploaded\Caro_ECommerce_Back\Caro\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Security.Cryptography.ProtectedData.dll
 F:\uploaded\Caro_ECommerce_Back\Caro\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
+F:\uploaded\Caro_ECommerce_Back\Caro\obj\Debug\net8.0\Caro.csproj.AssemblyReference.cache
+F:\uploaded\Caro_ECommerce_Back\Caro\obj\Debug\net8.0\Caro.GeneratedMSBuildEditorConfig.editorconfig
+F:\uploaded\Caro_ECommerce_Back\Caro\obj\Debug\net8.0\Caro.AssemblyInfoInputs.cache
+F:\uploaded\Caro_ECommerce_Back\Caro\obj\Debug\net8.0\Caro.AssemblyInfo.cs
+F:\uploaded\Caro_ECommerce_Back\Caro\obj\Debug\net8.0\Caro.csproj.CoreCompileInputs.cache
+F:\uploaded\Caro_ECommerce_Back\Caro\obj\Debug\net8.0\Caro.MvcApplicationPartsAssemblyInfo.cs
+F:\uploaded\Caro_ECommerce_Back\Caro\obj\Debug\net8.0\Caro.MvcApplicationPartsAssemblyInfo.cache
+F:\uploaded\Caro_ECommerce_Back\Caro\obj\Debug\net8.0\Caro.RazorAssemblyInfo.cache
+F:\uploaded\Caro_ECommerce_Back\Caro\obj\Debug\net8.0\Caro.RazorAssemblyInfo.cs
+F:\uploaded\Caro_ECommerce_Back\Caro\obj\Debug\net8.0\Caro.sourcelink.json
 F:\uploaded\Caro_ECommerce_Back\Caro\obj\Debug\net8.0\staticwebassets.build.json
 F:\uploaded\Caro_ECommerce_Back\Caro\obj\Debug\net8.0\staticwebassets.development.json
 F:\uploaded\Caro_ECommerce_Back\Caro\obj\Debug\net8.0\staticwebassets\msbuild.Caro.Microsoft.AspNetCore.StaticWebAssets.props
@@ -844,5 +839,8 @@ F:\uploaded\Caro_ECommerce_Back\Caro\obj\Debug\net8.0\scopedcss\Views\Shared\_La
 F:\uploaded\Caro_ECommerce_Back\Caro\obj\Debug\net8.0\scopedcss\bundle\Caro.styles.css
 F:\uploaded\Caro_ECommerce_Back\Caro\obj\Debug\net8.0\scopedcss\projectbundle\Caro.bundle.scp.css
 F:\uploaded\Caro_ECommerce_Back\Caro\obj\Debug\net8.0\Caro.csproj.Up2Date
+F:\uploaded\Caro_ECommerce_Back\Caro\obj\Debug\net8.0\Caro.dll
+F:\uploaded\Caro_ECommerce_Back\Caro\obj\Debug\net8.0\refint\Caro.dll
+F:\uploaded\Caro_ECommerce_Back\Caro\obj\Debug\net8.0\Caro.pdb
 F:\uploaded\Caro_ECommerce_Back\Caro\obj\Debug\net8.0\Caro.genruntimeconfig.cache
 F:\uploaded\Caro_ECommerce_Back\Caro\obj\Debug\net8.0\ref\Caro.dll

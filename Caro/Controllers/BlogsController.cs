@@ -11,8 +11,10 @@ using Caro.Models;
 using Microsoft.AspNetCore.Identity;
 using Caro.ViewModels;
 using Microsoft.Extensions.Hosting;
+using Microsoft.AspNetCore.Authorization;
 namespace Caro.Controllers
 {
+    [Authorize(Roles ="Admin")]
     public class BlogsController : Controller
     {
         private readonly ApplicationDbContext _context;

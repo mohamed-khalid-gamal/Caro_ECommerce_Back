@@ -2,6 +2,52 @@
 @{
 	Layout = "_ShopLayout";
 }
+@{
+    var emptyCartMessage = TempData["EmptyCartMessage"] as string;
+}
+
+<style>
+    .popup-message {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        z-index: 1000;
+    }
+
+    .popup-content {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    }
+
+    .close-button {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        cursor: pointer;
+        font-size: 20px;
+        color: #333;
+    }
+</style>
+
+@if (!string.IsNullOrEmpty(emptyCartMessage))
+{
+    <div id="emptyCartMessagePopup" class="popup-message">
+        <div class="popup-content">
+            <span class="close-button">&times;</span>
+            <p>@emptyCartMessage</p>
+        </div>
+    </div>
+}
 <section id="Products1"
          class="products">
     @{
@@ -27,7 +73,7 @@
                             </div>
                             <div class="price">
                                 <h4>@product.Price</h4>
-                                <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                                <a asp-route-Id="@product.Id" asp-action="SingleProduct" asp-controller="Shop"><i class="fa-solid fa-cart-shopping"></i></a>
                             </div>
                         </div>
                     </div>
@@ -76,3 +122,23 @@
     </ul>
 
 </section>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        var popup = document.getElementById('emptyCartMessagePopup');
+        var closeButton = popup.querySelector('.close-button');
+
+        if (popup) {
+            popup.style.display = 'block'; 
+
+            closeButton.onclick = function () {
+                popup.style.display = 'none'; 
+            };
+
+            window.onclick = function (event) {
+                if (event.target == popup) {
+                    popup.style.display = 'none'; 
+                }
+            };
+        }
+    });
+</script>
