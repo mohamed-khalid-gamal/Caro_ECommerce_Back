@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "a7yLFC4/Mmc=",
+  "dgSpecHash": "GLZD3tAX7u4=",
   "success": true,
   "projectFilePath": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\Caro.csproj",
   "expectedPackageFiles": [
@@ -56,6 +56,7 @@
     "C:\\Users\\hp zbook\\.nuget\\packages\\humanizer.core.zh-cn\\2.14.1\\humanizer.core.zh-cn.2.14.1.nupkg.sha512",
     "C:\\Users\\hp zbook\\.nuget\\packages\\humanizer.core.zh-hans\\2.14.1\\humanizer.core.zh-hans.2.14.1.nupkg.sha512",
     "C:\\Users\\hp zbook\\.nuget\\packages\\humanizer.core.zh-hant\\2.14.1\\humanizer.core.zh-hant.2.14.1.nupkg.sha512",
+    "C:\\Users\\hp zbook\\.nuget\\packages\\microsoft.aspnetcore.authentication.google\\8.0.7\\microsoft.aspnetcore.authentication.google.8.0.7.nupkg.sha512",
     "C:\\Users\\hp zbook\\.nuget\\packages\\microsoft.aspnetcore.authentication.negotiate\\8.0.7\\microsoft.aspnetcore.authentication.negotiate.8.0.7.nupkg.sha512",
     "C:\\Users\\hp zbook\\.nuget\\packages\\microsoft.aspnetcore.connections.abstractions\\8.0.7\\microsoft.aspnetcore.connections.abstractions.8.0.7.nupkg.sha512",
     "C:\\Users\\hp zbook\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\8.0.7\\microsoft.aspnetcore.cryptography.internal.8.0.7.nupkg.sha512",

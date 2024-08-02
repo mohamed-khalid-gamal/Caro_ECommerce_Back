@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
 
-namespace Caro.Data.Migrations
+namespace Caro.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
     partial class ApplicationDbContextModelSnapshot : ModelSnapshot
@@ -107,9 +107,6 @@ namespace Caro.Data.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<int?>("BlogId")
-                        .HasColumnType("int");
-
                     b.Property<DateTime>("Date")
                         .HasColumnType("datetime2");
 
@@ -117,7 +114,11 @@ namespace Caro.Data.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("ImageUrl")
+                    b.Property<string>("Image")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("ShortDescription")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
@@ -127,8 +128,6 @@ namespace Caro.Data.Migrations
                         .HasColumnType("nvarchar(100)");
 
                     b.HasKey("Id");
-
-                    b.HasIndex("BlogId");
 
                     b.ToTable("Blogs");
                 });
@@ -141,9 +140,9 @@ namespace Caro.Data.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<string>("Author")
+                    b.Property<string>("AuthorId")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasColumnType("nvarchar(450)");
 
                     b.Property<int?>("BlogId")
                         .HasColumnType("int");
@@ -156,6 +155,8 @@ namespace Caro.Data.Migrations
                         .HasColumnType("datetime2");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("AuthorId");
 
                     b.HasIndex("BlogId");
 
@@ -370,18 +371,19 @@ namespace Caro.Data.Migrations
                     b.ToTable("UserTokens", "Security");
                 });
 
-            modelBuilder.Entity("Caro.Models.Blog", b =>
-                {
-                    b.HasOne("Caro.Models.Blog", null)
-                        .WithMany("RelatedBlogs")
-                        .HasForeignKey("BlogId");
-                });
-
             modelBuilder.Entity("Caro.Models.Comment", b =>
                 {
+                    b.HasOne("Caro.Models.ApplicationUser", "Author")
+                        .WithMany()
+                        .HasForeignKey("AuthorId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
                     b.HasOne("Caro.Models.Blog", null)
                         .WithMany("Comments")
                         .HasForeignKey("BlogId");
+
+                    b.Navigation("Author");
                 });
 
             modelBuilder.Entity("Caro.Models.ProductImage", b =>
@@ -460,8 +462,6 @@ namespace Caro.Data.Migrations
             modelBuilder.Entity("Caro.Models.Blog", b =>
                 {
                     b.Navigation("Comments");
-
-                    b.Navigation("RelatedBlogs");
                 });
 
             modelBuilder.Entity("Caro.Models.Product", b =>

@@ -1,63 +1,66 @@
 ﻿@model IEnumerable<ProductViewModel>
 @{
-	Layout = "_ShopLayout";
+    Layout = "_ShopLayout";
 }
+
 <section id="hero">
-    <h4>Trade-inoffer</h4>
+    <h4>Trade-in Offer</h4>
     <h1>Super value deals</h1>
     <h1>On all products</h1>
     <p>Save more with coupons & Up to 70% off!</p>
     <a asp-action="Products" asp-controller="Shop">Shop Now</a>
 </section>
+
 <section id="features">
     <div class="feature">
-        <img src="~/img/features/f1.png"
-             alt="" />
-        <h6>Free Shiping</h6>
+        <img src="~/img/features/f1.png" alt="" />
+        <h6>Free Shipping</h6>
     </div>
     <div class="feature">
-        <img src="~/img/features/f2.png"
-             alt="" />
+        <img src="~/img/features/f2.png" alt="" />
         <h6>Online Order</h6>
     </div>
     <div class="feature">
-        <img src="~/img/features/f3.png"
-             alt="" />
+        <img src="~/img/features/f3.png" alt="" />
         <h6>Save Money</h6>
     </div>
     <div class="feature">
-        <img src="~/img/features/f4.png"
-             alt="" />
-        <h6>Pormotions</h6>
+        <img src="~/img/features/f4.png" alt="" />
+        <h6>Promotions</h6>
     </div>
     <div class="feature">
-        <img src="~/img/features/f5.png"
-             alt="" />
+        <img src="~/img/features/f5.png" alt="" />
         <h6>Happy Sell</h6>
     </div>
     <div class="feature">
-        <img src=@Url.Content("~/img/features/f6.png")
-             alt="" />
-        <h6>F24/7 Support</h6>
+        <img src=@Url.Content("~/img/features/f6.png") alt="" />
+        <h6>24/7 Support</h6>
     </div>
 </section>
-<section id="Products1"
-         class="products">
+
+<section id="Products1" class="products">
     <div class="text">
         <h1>Featured Products</h1>
         <p>Summer Collection New Modern Design</p>
     </div>
-    @{
-        
-            <div class="pro-container">
-            @{var i = 0;}
-            @foreach(var product in Model)
-            {
-                <a asp-route-Id="@product.Id" asp-action="SingleProduct" asp-controller="Shop">
+
+    <div class="pro-container">
+        @{
+            var i = 0;
+        }
+        @foreach (var product in Model)
+        {
+            <a asp-route-Id="@product.Id" asp-action="SingleProduct" asp-controller="Shop">
                 <div class="pro">
                     <div class="image">
-                        <img src="@product.Images[0].ImageUrl"
-                             alt="" />
+                        @if (product.Images != null && product.Images.Any())
+                        {
+                            <img src="@product.Images[0].ImageUrl" alt="@product.Name" />
+                        }
+                        else
+                        {
+                            <img src="~/img/default.png" alt="No Image Available" />
+                        }
                     </div>
                     <div class="des">
                         <span>adidas</span>
@@ -75,49 +78,46 @@
                         </div>
                     </div>
                 </div>
-                </a>
+            </a>
 
-               
-                    i++;
-                    if (i == 7)
-                    {
-                        break;
-                    }
-                
+            i++;
+            if (i == 7)
+            {
+                break;
             }
-            
-            </div>
-        
-        
-    }
-    
+        }
+    </div>
 </section>
+
 <section id="banner">
     <h4>Repair Services</h4>
-    <h1>UP TO <span>70% OFF</span>- All t-Shirts & Accessories</h1>
+    <h1>UP TO <span>70% OFF</span> - All t-Shirts & Accessories</h1>
     <button>Explore More</button>
 </section>
-<section id="Products2"
-         class="products">
+
+<section id="Products2" class="products">
     <div class="text">
         <h1>New Arrivals</h1>
         <p>Summer Collection New Modern Design</p>
     </div>
 
-    @{
-
-        <div class="pro-container">
-            @{
-                var x = 0;
-            }
-            @foreach (var product in Model)
-            {
-                <a asp-route-Id="@product.Id" asp-action="SingleProduct" asp-controller="Shop">
-
+    <div class="pro-container">
+        @{
+            var x = 0;
+        }
+        @foreach (var product in Model)
+        {
+            <a asp-route-Id="@product.Id" asp-action="SingleProduct" asp-controller="Shop">
                 <div class="pro">
                     <div class="image">
-                        <img src="@product.Images[0].ImageUrl"
-                             alt="" />
+                        @if (product.Images != null && product.Images.Any())
+                        {
+                            <img src="@product.Images[0].ImageUrl" alt="@product.Name" />
+                        }
+                        else
+                        {
+                            <img src="~/img/default.png" alt="No Image Available" />
+                        }
                     </div>
                     <div class="des">
                         <span>adidas</span>
@@ -135,33 +135,28 @@
                         </div>
                     </div>
                 </div>
-                </a>
+            </a>
 
-
-                x++;
-                if (x == 7)
-                {
-                    break;
-                }
-
+            x++;
+            if (x == 7)
+            {
+                break;
             }
-
-        </div>
-
-
-    }
+        }
+    </div>
 </section>
+
 <section id="bannels">
     <div class="bannel1 bannel">
-        <h4>crazy Deals</h4>
-        <h2>buy 1 get 1 free</h2>
-        <p>the best classic dress is on sale at casa</p>
+        <h4>Crazy Deals</h4>
+        <h2>Buy 1 Get 1 Free</h2>
+        <p>The best classic dress is on sale at casa</p>
         <a asp-action="Products" asp-controller="Shop"><button>Learn more</button></a>
     </div>
     <div class="bannel2 bannel">
-        <h4>spring/summer</h4>
-        <h2>Upcommming Season</h2>
-        <p>the best classic dress is on sale at casa</p>
+        <h4>Spring/Summer</h4>
+        <h2>Upcoming Season</h2>
+        <p>The best classic dress is on sale at casa</p>
         <a asp-action="Products" asp-controller="Shop"><button>Collection</button></a>
     </div>
     <div class="bannel3 bannel">
@@ -169,8 +164,8 @@
         <p>Winter collection Off</p>
     </div>
     <div class="bannel4 bannel">
-        <h3> NEW FOOTWEAR COLLLECTION</h3>
-        <p>spring / summer 2022</p>
+        <h3>NEW FOOTWEAR COLLECTION</h3>
+        <p>Spring / Summer 2022</p>
     </div>
     <div class="bannel5 bannel">
         <h3>T-SHIRTs</h3>

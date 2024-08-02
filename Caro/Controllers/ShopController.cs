@@ -53,6 +53,20 @@ namespace Caro.Controllers
         {
             return View();
         }
+        public async Task<IActionResult> Blogs(int PageNo = 1)
+        {
+            var blogs = await _context.Blogs.ToListAsync();
+            int NoOfRecordsPerPage = 3;
+            int NoOfPages = Convert.ToInt32(Math.Ceiling(Convert.ToDouble(blogs.Count) / Convert.ToDouble(NoOfRecordsPerPage)));
+            int NoOfRecordsToSkip = (PageNo - 1) * NoOfRecordsPerPage;  // Corrected variable name
+            ViewBag.PageNo = PageNo;
+            ViewBag.NoOfPages = NoOfPages;
+
+            blogs = blogs.Skip(NoOfRecordsToSkip).Take(NoOfRecordsPerPage).ToList();
+
+            return View(blogs);
+            
+        }
         public async Task<IActionResult> Products(int PageNo = 1)
         {
 			var products = await _context.Products

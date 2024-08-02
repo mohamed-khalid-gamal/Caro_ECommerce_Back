@@ -1,5 +1,4 @@
-﻿
-@model ProductViewModel
+﻿@model ProductViewModel
 @{
     Layout = "_DashLayout";
 }
@@ -28,7 +27,7 @@
             <tr>
                 <th>Size</th>
                 <th>Quantity</th>
-                
+
                 <th></th>
             </tr>
         </thead>
@@ -52,9 +51,9 @@
                     </td>
                     <td>
                         <input asp-for="@Model.Sizes[i].Quantity" class="form-control" />
-                        <span asp-validation-for="@Model.Sizes[i].Quantity" class="text-danger"></span>
+                        <span asp-validation-for="@Model.Sizes[i].Quantity " class="text-danger"></span>
                     </td>
-                    
+
                     <td>
                         <button type="button" class="btn btn-danger" onclick="removeSizeRow(this)">Remove</button>
                     </td>
@@ -66,14 +65,28 @@
     <button type="button" class="btn btn-secondary" onclick="addSizeRow()">Add Size</button>
 
     <h3>Existing Images</h3>
+    <style>
+        .RemoveImage {
+            position: absolute;
+            right: 13px;
+            background-color: red;
+            outline: none;
+            border-radius: 50%;
+            /* padding: 9px; */
+            height: 30px;
+            width: 30px;
+            color: white;
+        }
+    </style>
     <div class="row">
         @foreach (var image in Model.Images)
         {
-            <div class="col-md-3">
+            <div class="col-md-3" style="position:relative">
                 <img src="@image.ImageUrl" class="img-thumbnail" alt="@image.AltText" />
-                
+                <button class="RemoveImage" type="button" onclick="removeImage(this, '@image.ImageUrl')">X</button>
             </div>
         }
+        <input hidden asp-for="ImageToRemove" />
     </div>
 
     <div class="form-group mt-4">
@@ -90,32 +103,43 @@
         var tableBody = document.getElementById('sizesTableBody');
         var newRow = document.createElement('tr');
         newRow.innerHTML = `
-                <td>
-                    <input type="hidden" name="Sizes[${tableBody.children.length}].Id" value="0" />
-   
-                                    <select class="form-select" name="Sizes[${tableBody.children.length}].Size" >
-                                        <option selected>Select Size</option>
-                                        <option value="Small">Small</option>
-                                        <option value="Medium">Medium</option>
-                                        <option value="Large">Large</option>
-                                        <option value="XLarge">XLarge</option>
-                                        <option value="XXLarge">XXLarge</option>
-                                        <option value="XXXLarge">XXXLarge</option>
-                                        <option value="XXXXLarge">XXXXLarge</option>
-                                    </select>
-                         </td>
-                <td>
-                    <input name="Sizes[${tableBody.children.length}].Quantity" class="form-control" />
-                </td>
-                
-                <td>
-                    <button type="button" class="btn btn-danger" onclick="removeSizeRow(this)">Remove</button>
-                </td>`;
+                    <td>
+                        <input type="hidden" name="Sizes[${tableBody.children.length}].Id" value="0" />
+
+                                        <select class="form-select" name="Sizes[${tableBody.children.length}].Size" >
+                                            <option selected>Select Size</option>
+                                            <option value="Small">Small</option>
+                                            <option value="Medium">Medium</option>
+                                            <option value="Large">Large</option>
+                                            <option value="XLarge">XLarge</option>
+                                            <option value="XXLarge">XXLarge</option>
+                                            <option value="XXXLarge">XXXLarge</option>
+                                            <option value="XXXXLarge">XXXXLarge</option>
+                                        </select>
+                             </td>
+                    <td>
+                        <input name="Sizes[${tableBody.children.length}].Quantity" class="form-control" />
+                    </td>
+
+                    <td>
+                        <button type="button" class="btn btn-danger" onclick="removeSizeRow(this)">Remove</button>
+                    </td>`;
         tableBody.appendChild(newRow);
     }
 
     function removeSizeRow(button) {
         var row = button.parentNode.parentNode;
         row.parentNode.removeChild(row);
+    }
+    function removeImage(button, ImageName) {
+        var imageDiv = button.parentNode;
+        console.log(ImageName)
+        imageDiv.remove();
+        var imagesToRemove = document.querySelector('input[name="ImageToRemove"]');
+        if (imagesToRemove.value === "") {
+            imagesToRemove.value = ImageName;
+        } else {
+            imagesToRemove.value += "," + ImageName;
+        }
     }
 </script>

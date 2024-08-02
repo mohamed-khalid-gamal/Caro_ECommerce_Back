@@ -1,12 +1,12 @@
-﻿using Caro.Data;
-using Caro.Models;
+﻿using Caro.Models;
 using Caro.ViewModels;
-using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using System.IO;
+using System;
+using Caro.Data;
 namespace Caro.Controllers
 {
-    [Authorize(Roles = "Admin")]
     public class ProductsController : Controller
     {
         private readonly ApplicationDbContext _context;
@@ -16,7 +16,7 @@ namespace Caro.Controllers
             _context = context;
             _hostEnvironment = hostEnvironment;
         }
-        public  async Task<IActionResult> Dash()
+        public async Task<IActionResult> Dash()
         {
             return View();
         }
@@ -39,7 +39,7 @@ namespace Caro.Controllers
                     Id = s.Id,
                     Size = s.Size,
                     Quantity = s.Quantity,
-                    
+
                 }).ToList(),
                 Images = p.Images.Select(i => new ProductImageViewModel
                 {
@@ -74,10 +74,13 @@ namespace Caro.Controllers
                     {
                         Size = s.Size,
                         Quantity = s.Quantity,
-                       
+
                     }).ToList()
                 };
-
+                if(model.ImageFiles == null)
+                {
+                    ModelState.AddModelError("ImageFiles", "Must upload at least one photo");
+                }
                 // Save images
                 if (model.ImageFiles != null && model.ImageFiles.Count > 0)
                 {
@@ -114,10 +117,7 @@ namespace Caro.Controllers
             {
                 return NotFound();
             }
-            List<IFormFile> imgs = new List<IFormFile>() ;
-            foreach (var image in product.Images) {
-                imgs.Add(GetLocalImageAsFormFile(image.ImageUrl));
-            }
+
             var model = new ProductViewModel
             {
                 Id = product.Id,
@@ -136,8 +136,7 @@ namespace Caro.Controllers
                     Id = i.Id,
                     ImageUrl = i.ImageUrl,
                     AltText = i.AltText
-                }).ToList(),
-                ImageFiles = imgs
+                }).ToList()
             };
 
             return View(model);
@@ -177,6 +176,24 @@ namespace Caro.Controllers
                     {
                         _context.ProductSizes.Remove(size);
                     }
+                    
+                    if (!string.IsNullOrEmpty(model.ImageToRemove))
+                    {
+                        var AllImageToRemove = model.ImageToRemove.Split(',');
+                        if (AllImageToRemove.Length == product.Images.Count && model.ImageFiles==null)
+                        {
+                            ModelState.AddModelError("ImageFiles", "Must be at least one image");
+                            return View(model);
+                        }
+                        foreach (var imageToRemove in AllImageToRemove)
+                        {
+
+                            DeleteImageAsync(imageToRemove);
+                            var ImageToremoveFromDatabase = await _context.ProductImages.SingleOrDefaultAsync(m => m.ImageUrl == imageToRemove);
+                            _context.ProductImages.Remove(ImageToremoveFromDatabase);
+                            _context.SaveChanges();
+                        }
+                    }
 
                     foreach (var sizeModel in model.Sizes)
                     {
@@ -185,7 +202,7 @@ namespace Caro.Controllers
                         {
                             existingSize.Size = sizeModel.Size;
                             existingSize.Quantity = sizeModel.Quantity;
-                          
+
                         }
                         else
                         {
@@ -195,20 +212,6 @@ namespace Caro.Controllers
                                 Quantity = sizeModel.Quantity,
                             });
                         }
-                    }
-
-                    // Manage images
-                    var existingImageIds = model.Images.Select(i => i.Id).ToList();
-                    var imagesToRemove = product.Images.Where(i => !existingImageIds.Contains(i.Id)).ToList();
-
-                    foreach (var image in imagesToRemove)
-                    {
-                        var fullPath = Path.Combine(_hostEnvironment.WebRootPath, image.ImageUrl.TrimStart('/'));
-                        if (System.IO.File.Exists(fullPath))
-                        {
-                            System.IO.File.Delete(fullPath);
-                        }
-                        _context.ProductImages.Remove(image);
                     }
 
                     foreach (var imageFile in model.ImageFiles ?? Enumerable.Empty<IFormFile>())
@@ -310,6 +313,7 @@ namespace Caro.Controllers
             {
                 Directory.CreateDirectory(uploadsFolder);
             }
+
             var uniqueFileName = Guid.NewGuid().ToString() + "_" + imageFile.FileName;
             var filePath = Path.Combine(uploadsFolder, uniqueFileName);
 
@@ -320,49 +324,37 @@ namespace Caro.Controllers
 
             return "/uploads/" + uniqueFileName;
         }
-        private IFormFile GetLocalImageAsFormFile(string localImagePath)
+
+        private async Task<bool> DeleteImageAsync(string ImageUrl)
         {
-            var fullPath = "C:\\Users\\hp zbook\\Desktop\\Caro - Copy\\Caro\\wwwroot" + localImagePath.Replace('/','\\');
 
-            if (!System.IO.File.Exists(fullPath))
+            if (string.IsNullOrEmpty(ImageUrl))
             {
-                throw new FileNotFoundException("File not found", fullPath);
+                return false;
+            }
+            var uploadsFolder = Path.Combine(_hostEnvironment.WebRootPath, ImageUrl.TrimStart('/').Replace('/', '\\'));
+
+
+
+            if (!System.IO.File.Exists(uploadsFolder))
+            {
+                return false;
             }
 
-            var fileInfo = new FileInfo(fullPath);
-            var memoryStream = new MemoryStream();
 
-            using (var stream = fileInfo.OpenRead())
+            try
             {
-                stream.CopyTo(memoryStream);
+
+
+
+                System.IO.File.Delete(uploadsFolder);
+                return true;
             }
-
-            memoryStream.Position = 0;
-            var x = Path.GetExtension(localImagePath);
-
-            var formFile = new FormFile(memoryStream, 0, memoryStream.Length, "image", fileInfo.Name)
+            catch (Exception)
             {
-                Headers = new HeaderDictionary(),
-                ContentType = x
-            };
-
-            return formFile;
-            //var fileInfo = new FileInfo(upload);
-            //var memoryStream = new MemoryStream();
-            //using (var stream = fileInfo.OpenRead())
-            //{
-            //    stream.CopyTo(memoryStream);
-            //}
-            //memoryStream.Position = 0;
-            //var x = Path.GetExtension(localImagePath);
-            //var formFile = new FormFile(memoryStream, 0, memoryStream.Length, "image", fileInfo.Name)
-            //{
-
-            //    Headers = new HeaderDictionary(),
-            //    ContentType = x
-            //};
-
-            //return formFile;
+                // Handle any exceptions here, possibly logging them or rethrowing
+                return false;
+            }
         }
     }
 

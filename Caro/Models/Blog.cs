@@ -14,8 +14,10 @@
 
         [Required]
         public string Description { get; set; }
+        [Required]
+        public string ShortDescription { get; set; }
 
-        public byte[] ProfilePicture { get; set; }
+        public string Image { get; set; }
 
         public DateTime Date { get; set; }
 

@@ -1,0 +1,69 @@
+﻿@using Humanizer
+@model IEnumerable<Blog>
+<section id="blog-header">
+    <h2>#Read more</h2>
+    <p>Read All case studies about our products</p>
+</section>
+<section class="d-flex align-items-center justify-content-center flex-column">
+    @{
+        @foreach (var blog in Model)
+        {
+             
+                <div class="card m-3 align-items-center" style="max-width: 800px;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                        <img src="@blog.Image" class="img-fluid rounded-start object-fit-fill" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">@blog.Title</h5>
+                                <p class="card-text"> @blog.ShortDescription.</p>
+                                <a asp-action="SingleBlog" class="btn btn-primary text-white">Continue Reading</a>
+                                <p class="card-text"><small class="text-body-secondary">Last updated @DateTime.UtcNow.Subtract(blog.Date).Humanize()</small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+            
+        }
+
+    }
+   
+    @{
+        int prev = ViewBag.PageNo - 1;
+        if (prev <= 0)
+        {
+            prev = 1;
+        }
+        int next = ViewBag.PageNo + 1;
+        if (next > ViewBag.NoOfPages)  // Corrected logic for the next button
+        {
+            next = ViewBag.NoOfPages;
+        }
+    }
+
+    <ul class="pagination justify-content-center">
+        <li class="page-item">
+            <a class="page-link" href="/Shop/Blogs?PageNo=@prev">Previous</a>
+        </li>
+        @{
+            for (int i = 1; i <= ViewBag.NoOfPages; i++)
+            {
+                if (i == ViewBag.PageNo)
+                {
+                    <li class="page-item active"><a class="page-link" href="/Shop/Blogs?PageNo=@i">@i</a></li>
+                    // Added active class to the list item
+                }
+                else
+                {
+                    <li class="page-item"><a class="page-link" href="/Shop/Blogs?PageNo=@i">@i</a></li>
+                }
+            }
+        }
+
+        <li class="page-item">
+            <a class="page-link" href="/Shop/Blogs?PageNo=@next">Next</a>
+        </li>
+    </ul>
+</section>

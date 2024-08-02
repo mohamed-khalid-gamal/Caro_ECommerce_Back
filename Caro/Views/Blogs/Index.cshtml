@@ -1,15 +1,11 @@
 ﻿@model IEnumerable<Caro.Models.Blog>
 
 @{
-    ViewData["Title"] = "Index";
+    Layout = "_DashLayout";
 }
 
-<h1>Index</h1>
 
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
-<table class="table">
+<table class="table" style="padding:20px; margin-top:100px;">
     <thead>
         <tr>
             <th>
@@ -19,7 +15,7 @@
                 @Html.DisplayNameFor(model => model.Description)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.ProfilePicture)
+                @Html.DisplayNameFor(model => model.Image)
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.Date)
@@ -37,17 +33,18 @@
                 @Html.DisplayFor(modelItem => item.Description)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.ProfilePicture)
-            </td>
+                    <img src="@item.Image"  class="img-thumbnail mr-2" style="width: 50px; height: 50px;" />
+                </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Date)
             </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
-            </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-primary btn-sm">Edit</a>
+                    <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger btn-sm">Delete</a>
+                </td>
         </tr>
 }
     </tbody>
 </table>
+<a asp-action="Create" class="btn btn-primary">Create New</a>
+

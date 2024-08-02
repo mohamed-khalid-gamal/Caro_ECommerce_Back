@@ -8,6 +8,8 @@
     ".NETCoreApp,Version=v8.0": {
       "Caro/1.0.0": {
         "dependencies": {
+          "Humanizer": "2.14.1",
+          "Microsoft.AspNetCore.Authentication.Google": "8.0.7",
           "Microsoft.AspNetCore.Authentication.Negotiate": "8.0.7",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "8.0.7",
           "Microsoft.AspNetCore.Identity.UI": "8.0.7",
@@ -592,6 +594,14 @@
         "resources": {
           "lib/net6.0/zh-Hant/Humanizer.resources.dll": {
             "locale": "zh-Hant"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.Authentication.Google/8.0.7": {
+        "runtime": {
+          "lib/net8.0/Microsoft.AspNetCore.Authentication.Google.dll": {
+            "assemblyVersion": "8.0.7.0",
+            "fileVersion": "8.0.724.31402"
           }
         }
       },
@@ -2562,6 +2572,13 @@
       "sha512": "sha512-VIXB7HCUC34OoaGnO3HJVtSv2/wljPhjV7eKH4+TFPgQdJj2lvHNKY41Dtg0Bphu7X5UaXFR4zrYYyo+GNOjbA==",
       "path": "humanizer.core.zh-hant/2.14.1",
       "hashPath": "humanizer.core.zh-hant.2.14.1.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Authentication.Google/8.0.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ToVB95+oz8gE6E8Y3ziXsNsDimWkmbYo1EKkLmcjmpbIbydY9wccdepD/d32yYFz7HoIJo+RA6EPppB4BOZgfA==",
+      "path": "microsoft.aspnetcore.authentication.google/8.0.7",
+      "hashPath": "microsoft.aspnetcore.authentication.google.8.0.7.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Authentication.Negotiate/8.0.7": {
       "type": "package",

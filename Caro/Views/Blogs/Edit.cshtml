@@ -1,49 +1,59 @@
-﻿@model Caro.Models.Blog
+﻿@model Caro.ViewModels.BlogViewModel
 
 @{
-    ViewData["Title"] = "Edit";
+    Layout = "_DashLayout";
 }
 
-<h1>Edit</h1>
 
-<h4>Blog</h4>
-<hr />
-<div class="row">
+<div class=" container-fluid" style="padding:20px; margin-top:100px;">
     <div class="col-md-4">
-        <form asp-action="Edit">
+        <form asp-action="Edit" method="post" enctype="multipart/form-data">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <input type="hidden" asp-for="Id" />
             <div class="form-group">
                 <label asp-for="Title" class="control-label"></label>
-                <input asp-for="Title" class="form-control" />
+                <input asp-for="@Model.Title" class="form-control" />
                 <span asp-validation-for="Title" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <label asp-for="Description" class="control-label"></label>
-                <input asp-for="Description" class="form-control" />
+                <textarea asp-for="Description" class="form-control"></textarea>
                 <span asp-validation-for="Description" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="ProfilePicture" class="control-label"></label>
-                <input asp-for="ProfilePicture" class="form-control" />
-                <span asp-validation-for="ProfilePicture" class="text-danger"></span>
+                <label asp-for="ShortDescription" class="control-label"></label>
+                <textarea asp-for="ShortDescription" class="form-control"></textarea>
+                <span asp-validation-for="ShortDescription" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="Date" class="control-label"></label>
-                <input asp-for="Date" class="form-control" />
-                <span asp-validation-for="Date" class="text-danger"></span>
+                <label>Current Image</label>
+                <img id="imgPreview" src="@Model.ExistingImage" alt="Blog Image" class="img-thumbnail" style="max-width: 200px; max-height: 200px;" />
             </div>
             <div class="form-group">
-                <input type="submit" value="Save" class="btn btn-primary" />
+                <label>Upload Image</label>
+                <input type="file" class="form-control"name="file" onchange="previewImage(event)" />
+                <span class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save Changes" class="btn btn-primary" />
+                <a asp-action="Index" class="btn btn-danger">Cancel</a>
             </div>
         </form>
     </div>
 </div>
 
-<div>
-    <a asp-action="Index">Back to List</a>
-</div>
 
-@section Scripts {
-    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+<!-- Script to preview the selected image -->
+<script>
+    function previewImage(event) {
+        var reader = new FileReader();
+        reader.onload = function () {
+            var imgElement = document.getElementById('imgPreview');
+            imgElement.src = reader.result;
+        }
+        reader.readAsDataURL(event.target.files[0]);
+    }
+</script>
+
+@{
+    await Html.RenderPartialAsync("_ValidationScriptsPartial");
 }

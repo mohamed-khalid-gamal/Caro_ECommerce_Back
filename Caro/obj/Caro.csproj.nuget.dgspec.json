@@ -46,6 +46,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Humanizer": {
+              "target": "Package",
+              "version": "[2.14.1, )"
+            },
+            "Microsoft.AspNetCore.Authentication.Google": {
+              "target": "Package",
+              "version": "[8.0.7, )"
+            },
             "Microsoft.AspNetCore.Authentication.Negotiate": {
               "target": "Package",
               "version": "[8.0.7, )"
