@@ -23,6 +23,11 @@ namespace Caro.Controllers
         {
             return View();
         }
+        public IActionResult Messages()
+        {
+            var model = _context.Messages.ToList();
+            return View(model);
+        }
         public IActionResult RemoveCart(int? id)
         {
             var cart = _context.ShoppingCarts.FirstOrDefault(c => c.Id == id);

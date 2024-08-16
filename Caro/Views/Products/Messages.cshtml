@@ -1,0 +1,28 @@
+﻿@model List<Message>
+
+@{
+    Layout = "_DashLayout";
+}
+<table class="table" style="padding:20px; margin-top:100px;">
+    <thead>
+        <tr>
+            <th>Sender</th>
+            <th>Email</th>
+            <th>Subject</th>
+            <th>Content</th>
+            
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var message in Model)
+        {
+            <tr>
+                <td>@message.Name</td>
+                <td>@message.Email</td>
+                <td>@message.Subject</td>
+                <td>@message.Content</td>
+                
+            </tr>
+        }
+    </tbody>
+</table>

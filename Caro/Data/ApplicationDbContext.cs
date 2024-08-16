@@ -14,6 +14,7 @@ namespace Caro.Data
 
         }
         public DbSet<Product> Products { get; set; }
+        public DbSet<Message> Messages { get; set; }
         public DbSet<ProductSize> ProductSizes { get; set; }
         public DbSet<ShoppingCart> ShoppingCarts { get; set; }
         public DbSet<ProductImage> ProductImages { get; set; }

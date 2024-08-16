@@ -67,8 +67,9 @@ namespace Caro.Controllers
                 .ToList();
             bool exist = false;
             foreach (var cart in carts) {
-                if (cart.ProductId == product.Id)
+                if (cart.ProductId == product.Id && model.Size==cart.Size)
                 {
+                    
                     exist = true;
                     model=cart;
                     model.Count += quantity;

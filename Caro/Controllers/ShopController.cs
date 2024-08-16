@@ -54,8 +54,28 @@ namespace Caro.Controllers
         }
         public IActionResult Contact()
         {
-            return View();
+            Message model = new Message();
+            if (_signInManager.IsSignedIn(User))
+            {
+                var Name = _userManager.GetUserAsync(User).Result.FirstName +" "+ _userManager.GetUserAsync(User).Result.LastName;
+                var Email = _userManager.GetUserAsync(User).Result.Email;
+                model.Name = Name;
+                model.Email = Email;
+            }
+            return View(model);
         }
+        [HttpPost]
+        public IActionResult SendMessage(Message model)
+        {
+            if (ModelState.IsValid) { 
+                _context.Messages.Add(model);
+                _context.SaveChanges();
+                return RedirectToAction("Index");
+
+            }
+            return View("Contact",model);
+        }
+
         public IActionResult About()
         {
             return View();

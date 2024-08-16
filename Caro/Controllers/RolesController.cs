@@ -18,9 +18,17 @@ namespace Caro.Controllers
         public async Task<IActionResult> Index()
         {
             var roles = await _roleManager.Roles.ToListAsync();
+           
             return View(roles);
         }
-        [HttpPost]
+        public async Task<IActionResult> RemoveRole(string?id)
+        {
+
+            await _roleManager.DeleteAsync(await _roleManager.FindByIdAsync(id));
+            return RedirectToAction("Index");
+
+        }
+       [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Add(RoleFormViewModel role)
         {

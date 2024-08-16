@@ -1,4 +1,6 @@
-﻿@{
+﻿@model Message
+
+@{
 	Layout = "_ShopLayout";
 }
 <section
@@ -37,24 +39,33 @@
         </div>
       </section>
       <section id="form-ma">
-        <form action="">
+        <form method="post" asp-action="SendMessage">
           <span>Leave Massage</span>
           <h2>We Love To hear from you</h2>
           <input
             type="text"
-            placeholder="name" />
+            placeholder="name"
+            asp-for="@Model.Name"/>
+            <span asp-validation-for="@Model.Name" class="text-danger"></span>
           <input
             type="email"
-            placeholder="Your Email" />
+            placeholder="Your Email"
+            asp-for="@Model.Email"/>
+        <span asp-validation-for="@Model.Email" class="text-danger"></span>
+
           <input
             type="text"
-            placeholder="Subject" />
+            placeholder="Subject" 
+            asp-for="@Model.Subject"/>
+        <span asp-validation-for="@Model.Subject" class="text-danger"></span>
+
           <textarea
-            name=""
-            id=""
+            
             cols="30"
             rows="10"
-            placeholder="Your massage"></textarea>
+            placeholder="Your massage"asp-for="@Model.Content"></textarea>
+        <span asp-validation-for="@Model.Content" class="text-danger"></span>
+
           <input
             type="submit"
             value="send" />
