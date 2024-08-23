@@ -3,6 +3,62 @@
   "WorkspaceRootPath": "F:\\uploaded\\Caro_ECommerce_Back\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{579D3E54-3C85-4F6C-AD4B-C5CD015C3B19}|Caro\\Caro.csproj|f:\\uploaded\\caro_ecommerce_back\\caro\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{579D3E54-3C85-4F6C-AD4B-C5CD015C3B19}|Caro\\Caro.csproj|solutionrelative:caro\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{579D3E54-3C85-4F6C-AD4B-C5CD015C3B19}|Caro\\Caro.csproj|f:\\uploaded\\caro_ecommerce_back\\caro\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{579D3E54-3C85-4F6C-AD4B-C5CD015C3B19}|Caro\\Caro.csproj|solutionrelative:caro\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{579D3E54-3C85-4F6C-AD4B-C5CD015C3B19}|Caro\\Caro.csproj|f:\\uploaded\\caro_ecommerce_back\\caro\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}|",
+      "RelativeMoniker": "D:0:0:{579D3E54-3C85-4F6C-AD4B-C5CD015C3B19}|Caro\\Caro.csproj|solutionrelative:caro\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{579D3E54-3C85-4F6C-AD4B-C5CD015C3B19}|Caro\\Caro.csproj|f:\\uploaded\\caro_ecommerce_back\\caro\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}|",
+      "RelativeMoniker": "D:0:0:{579D3E54-3C85-4F6C-AD4B-C5CD015C3B19}|Caro\\Caro.csproj|solutionrelative:caro\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{579D3E54-3C85-4F6C-AD4B-C5CD015C3B19}|Caro\\Caro.csproj|f:\\uploaded\\caro_ecommerce_back\\caro\\controllers\\shopcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{579D3E54-3C85-4F6C-AD4B-C5CD015C3B19}|Caro\\Caro.csproj|solutionrelative:caro\\controllers\\shopcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{579D3E54-3C85-4F6C-AD4B-C5CD015C3B19}|Caro\\Caro.csproj|f:\\uploaded\\caro_ecommerce_back\\caro\\views\\shared\\_shoplayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{579D3E54-3C85-4F6C-AD4B-C5CD015C3B19}|Caro\\Caro.csproj|solutionrelative:caro\\views\\shared\\_shoplayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{579D3E54-3C85-4F6C-AD4B-C5CD015C3B19}|Caro\\Caro.csproj|f:\\uploaded\\caro_ecommerce_back\\caro\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{579D3E54-3C85-4F6C-AD4B-C5CD015C3B19}|Caro\\Caro.csproj|solutionrelative:caro\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{579D3E54-3C85-4F6C-AD4B-C5CD015C3B19}|Caro\\Caro.csproj|f:\\uploaded\\caro_ecommerce_back\\caro\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{579D3E54-3C85-4F6C-AD4B-C5CD015C3B19}|Caro\\Caro.csproj|solutionrelative:caro\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{579D3E54-3C85-4F6C-AD4B-C5CD015C3B19}|Caro\\Caro.csproj|f:\\uploaded\\caro_ecommerce_back\\caro\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{579D3E54-3C85-4F6C-AD4B-C5CD015C3B19}|Caro\\Caro.csproj|solutionrelative:caro\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{579D3E54-3C85-4F6C-AD4B-C5CD015C3B19}|Caro\\Caro.csproj|f:\\uploaded\\caro_ecommerce_back\\caro\\areas\\identity\\pages\\account\\lockout.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{579D3E54-3C85-4F6C-AD4B-C5CD015C3B19}|Caro\\Caro.csproj|solutionrelative:caro\\areas\\identity\\pages\\account\\lockout.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{579D3E54-3C85-4F6C-AD4B-C5CD015C3B19}|Caro\\Caro.csproj|f:\\uploaded\\caro_ecommerce_back\\caro\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{579D3E54-3C85-4F6C-AD4B-C5CD015C3B19}|Caro\\Caro.csproj|solutionrelative:caro\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{579D3E54-3C85-4F6C-AD4B-C5CD015C3B19}|Caro\\Caro.csproj|f:\\uploaded\\caro_ecommerce_back\\caro\\controllers\\blogscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{579D3E54-3C85-4F6C-AD4B-C5CD015C3B19}|Caro\\Caro.csproj|solutionrelative:caro\\controllers\\blogscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{579D3E54-3C85-4F6C-AD4B-C5CD015C3B19}|Caro\\Caro.csproj|f:\\uploaded\\caro_ecommerce_back\\caro\\views\\blogs\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{579D3E54-3C85-4F6C-AD4B-C5CD015C3B19}|Caro\\Caro.csproj|solutionrelative:caro\\views\\blogs\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{579D3E54-3C85-4F6C-AD4B-C5CD015C3B19}|Caro\\Caro.csproj|f:\\uploaded\\caro_ecommerce_back\\caro\\wwwroot\\js\\main.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{579D3E54-3C85-4F6C-AD4B-C5CD015C3B19}|Caro\\Caro.csproj|solutionrelative:caro\\wwwroot\\js\\main.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{579D3E54-3C85-4F6C-AD4B-C5CD015C3B19}|Caro\\Caro.csproj|f:\\uploaded\\caro_ecommerce_back\\caro\\views\\products\\cart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{579D3E54-3C85-4F6C-AD4B-C5CD015C3B19}|Caro\\Caro.csproj|solutionrelative:caro\\views\\products\\cart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -45,20 +101,8 @@
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__carodb/caro2/True/SqlTable/dbo.Messages.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{579D3E54-3C85-4F6C-AD4B-C5CD015C3B19}|Caro\\Caro.csproj|f:\\uploaded\\caro_ecommerce_back\\caro\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{579D3E54-3C85-4F6C-AD4B-C5CD015C3B19}|Caro\\Caro.csproj|solutionrelative:caro\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{579D3E54-3C85-4F6C-AD4B-C5CD015C3B19}|Caro\\Caro.csproj|f:\\uploaded\\caro_ecommerce_back\\caro\\controllers\\shopcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{579D3E54-3C85-4F6C-AD4B-C5CD015C3B19}|Caro\\Caro.csproj|solutionrelative:caro\\controllers\\shopcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{579D3E54-3C85-4F6C-AD4B-C5CD015C3B19}|Caro\\Caro.csproj|f:\\uploaded\\caro_ecommerce_back\\caro\\views\\shop\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{579D3E54-3C85-4F6C-AD4B-C5CD015C3B19}|Caro\\Caro.csproj|solutionrelative:caro\\views\\shop\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{579D3E54-3C85-4F6C-AD4B-C5CD015C3B19}|Caro\\Caro.csproj|f:\\uploaded\\caro_ecommerce_back\\caro\\views\\shared\\_shoplayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{579D3E54-3C85-4F6C-AD4B-C5CD015C3B19}|Caro\\Caro.csproj|solutionrelative:caro\\views\\shared\\_shoplayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{579D3E54-3C85-4F6C-AD4B-C5CD015C3B19}|Caro\\Caro.csproj|f:\\uploaded\\caro_ecommerce_back\\caro\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -81,16 +125,8 @@
       "RelativeMoniker": "D:0:0:{579D3E54-3C85-4F6C-AD4B-C5CD015C3B19}|Caro\\Caro.csproj|solutionrelative:caro\\views\\shop\\blogs.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{579D3E54-3C85-4F6C-AD4B-C5CD015C3B19}|Caro\\Caro.csproj|f:\\uploaded\\caro_ecommerce_back\\caro\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{579D3E54-3C85-4F6C-AD4B-C5CD015C3B19}|Caro\\Caro.csproj|solutionrelative:caro\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{579D3E54-3C85-4F6C-AD4B-C5CD015C3B19}|Caro\\Caro.csproj|f:\\uploaded\\caro_ecommerce_back\\caro\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{579D3E54-3C85-4F6C-AD4B-C5CD015C3B19}|Caro\\Caro.csproj|solutionrelative:caro\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{579D3E54-3C85-4F6C-AD4B-C5CD015C3B19}|Caro\\Caro.csproj|f:\\uploaded\\caro_ecommerce_back\\caro\\wwwroot\\js\\main.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{579D3E54-3C85-4F6C-AD4B-C5CD015C3B19}|Caro\\Caro.csproj|solutionrelative:caro\\wwwroot\\js\\main.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\hp zbook\\Desktop\\Caro - Copy\\Caro\\Migrations\\20240802074632_ShoppingCartSize2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -110,10 +146,6 @@
       "RelativeMoniker": "D:0:0:{579D3E54-3C85-4F6C-AD4B-C5CD015C3B19}|Caro\\Caro.csproj|solutionrelative:caro\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{579D3E54-3C85-4F6C-AD4B-C5CD015C3B19}|Caro\\Caro.csproj|f:\\uploaded\\caro_ecommerce_back\\caro\\controllers\\blogscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{579D3E54-3C85-4F6C-AD4B-C5CD015C3B19}|Caro\\Caro.csproj|solutionrelative:caro\\controllers\\blogscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\hp zbook\\Desktop\\Caro - Copy\\Caro\\Migrations\\20240802073730_ShoppingCartSize.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -123,10 +155,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{579D3E54-3C85-4F6C-AD4B-C5CD015C3B19}|Caro\\Caro.csproj|f:\\uploaded\\caro_ecommerce_back\\caro\\models\\productimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{579D3E54-3C85-4F6C-AD4B-C5CD015C3B19}|Caro\\Caro.csproj|solutionrelative:caro\\models\\productimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{579D3E54-3C85-4F6C-AD4B-C5CD015C3B19}|Caro\\Caro.csproj|f:\\uploaded\\caro_ecommerce_back\\caro\\views\\blogs\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{579D3E54-3C85-4F6C-AD4B-C5CD015C3B19}|Caro\\Caro.csproj|solutionrelative:caro\\views\\blogs\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{579D3E54-3C85-4F6C-AD4B-C5CD015C3B19}|Caro\\Caro.csproj|f:\\uploaded\\caro_ecommerce_back\\caro\\views\\products\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -200,10 +228,6 @@
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__mssqllocaldb/aspnet_User_Management_App/True/SqlTable/Security.UserRoles.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{579D3E54-3C85-4F6C-AD4B-C5CD015C3B19}|Caro\\Caro.csproj|f:\\uploaded\\caro_ecommerce_back\\caro\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{579D3E54-3C85-4F6C-AD4B-C5CD015C3B19}|Caro\\Caro.csproj|solutionrelative:caro\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\hp zbook\\Desktop\\Caro - Copy\\Caro\\Migrations\\20240731192627_blogs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -226,7 +250,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -246,69 +270,43 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Cart.cshtml",
-              "DocumentMoniker": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\Views\\Products\\Cart.cshtml",
-              "RelativeDocumentMoniker": "Caro\\Views\\Products\\Cart.cshtml",
-              "ToolTip": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\Views\\Products\\Cart.cshtml",
-              "RelativeToolTip": "Caro\\Views\\Products\\Cart.cshtml",
-              "ViewState": "AQIAACQAAAAAAAAAAAAAADIAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-16T13:47:52.335Z",
-              "EditorCaption": ""
+              "DocumentIndex": 1,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "Caro\\appsettings.Development.json",
+              "ToolTip": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\appsettings.Development.json",
+              "RelativeToolTip": "Caro\\appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-20T13:44:00.311Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "CartController.cs",
-              "DocumentMoniker": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\Controllers\\CartController.cs",
-              "RelativeDocumentMoniker": "Caro\\Controllers\\CartController.cs",
-              "ToolTip": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\Controllers\\CartController.cs",
-              "RelativeToolTip": "Caro\\Controllers\\CartController.cs",
-              "ViewState": "AQIAADsAAAAAAAAAAAAgwEkAAAAfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-16T13:37:36.276Z",
-              "EditorCaption": ""
+              "Title": "jquery.validate.js",
+              "DocumentMoniker": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+              "RelativeDocumentMoniker": "Caro\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+              "ToolTip": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+              "RelativeToolTip": "Caro\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-08-20T12:26:33.535Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Messages.cshtml",
-              "DocumentMoniker": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\Views\\Products\\Messages.cshtml",
-              "RelativeDocumentMoniker": "Caro\\Views\\Products\\Messages.cshtml",
-              "ToolTip": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\Views\\Products\\Messages.cshtml",
-              "RelativeToolTip": "Caro\\Views\\Products\\Messages.cshtml",
-              "ViewState": "AQIAAAQAAAAAAAAAAAAwwA4AAAAMAAAA",
+              "DocumentIndex": 5,
+              "Title": "_ShopLayout.cshtml",
+              "DocumentMoniker": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\Views\\Shared\\_ShopLayout.cshtml",
+              "RelativeDocumentMoniker": "Caro\\Views\\Shared\\_ShopLayout.cshtml",
+              "ToolTip": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\Views\\Shared\\_ShopLayout.cshtml",
+              "RelativeToolTip": "Caro\\Views\\Shared\\_ShopLayout.cshtml",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAADAAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-16T13:04:25.674Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-01T15:50:54.629Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\Views\\Cart\\Index.cshtml",
-              "RelativeDocumentMoniker": "Caro\\Views\\Cart\\Index.cshtml",
-              "ToolTip": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\Views\\Cart\\Index.cshtml",
-              "RelativeToolTip": "Caro\\Views\\Cart\\Index.cshtml",
-              "ViewState": "AQIAACQAAAAAAAAAAAAAADUAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-02T19:01:09.18Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "dbo.ShoppingCarts [Data]",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__carodb/caro2/True/SqlTable/dbo.ShoppingCarts.sql",
-              "ToolTip": "dbo.ShoppingCarts [Data]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-08-02T07:45:31.534Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 17,
               "Title": "ShoppingCart.cs",
               "DocumentMoniker": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\Models\\ShoppingCart.cs",
               "RelativeDocumentMoniker": "Caro\\Models\\ShoppingCart.cs",
@@ -316,12 +314,72 @@
               "RelativeToolTip": "Caro\\Models\\ShoppingCart.cs",
               "ViewState": "AQIAAAoAAAAAAAAAAAAkwA4AAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-02T06:33:30.967Z",
+              "WhenOpened": "2024-08-02T06:33:30.967Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ShopController.cs",
+              "DocumentMoniker": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\Controllers\\ShopController.cs",
+              "RelativeDocumentMoniker": "Caro\\Controllers\\ShopController.cs",
+              "ToolTip": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\Controllers\\ShopController.cs",
+              "RelativeToolTip": "Caro\\Controllers\\ShopController.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAIwDMAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T15:59:08.658Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\appsettings.json",
+              "RelativeDocumentMoniker": "Caro\\appsettings.json",
+              "ToolTip": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\appsettings.json",
+              "RelativeToolTip": "Caro\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-31T19:27:22.614Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "jquery.validate.unobtrusive.js",
+              "DocumentMoniker": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+              "RelativeDocumentMoniker": "Caro\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+              "ToolTip": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+              "RelativeToolTip": "Caro\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAcwBUAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-08-20T12:27:05.718Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "Caro\\Controllers\\ProductsController.cs",
+              "ToolTip": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "Caro\\Controllers\\ProductsController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAoAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-26T03:02:56.865Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "main.js",
+              "DocumentMoniker": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\js\\main.js",
+              "RelativeDocumentMoniker": "Caro\\wwwroot\\js\\main.js",
+              "ToolTip": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\js\\main.js",
+              "RelativeToolTip": "Caro\\wwwroot\\js\\main.js",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAQwDMAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-08-02T19:08:50.334Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
               "Title": "Index.cshtml",
               "DocumentMoniker": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\Views\\Roles\\Index.cshtml",
               "RelativeDocumentMoniker": "Caro\\Views\\Roles\\Index.cshtml",
@@ -329,12 +387,116 @@
               "RelativeToolTip": "Caro\\Views\\Roles\\Index.cshtml",
               "ViewState": "AQIAAAwAAAAAAAAAAAAAABsAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-16T13:15:26.69Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-16T13:15:26.69Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
+              "Title": "Login.cshtml.cs",
+              "DocumentMoniker": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "RelativeDocumentMoniker": "Caro\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "ToolTip": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "RelativeToolTip": "Caro\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAA1wA0AAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-17T08:19:35.991Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "Caro\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ToolTip": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeToolTip": "Caro\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABAAAABVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-17T08:18:42.788Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Lockout.cshtml.cs",
+              "DocumentMoniker": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\Areas\\Identity\\Pages\\Account\\Lockout.cshtml.cs",
+              "RelativeDocumentMoniker": "Caro\\Areas\\Identity\\Pages\\Account\\Lockout.cshtml.cs",
+              "ToolTip": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\Areas\\Identity\\Pages\\Account\\Lockout.cshtml.cs",
+              "RelativeToolTip": "Caro\\Areas\\Identity\\Pages\\Account\\Lockout.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-17T08:19:22.882Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "BlogsController.cs",
+              "DocumentMoniker": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\Controllers\\BlogsController.cs",
+              "RelativeDocumentMoniker": "Caro\\Controllers\\BlogsController.cs",
+              "ToolTip": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\Controllers\\BlogsController.cs",
+              "RelativeToolTip": "Caro\\Controllers\\BlogsController.cs",
+              "ViewState": "AQIAACgAAAAAAAAAAAAgwDEAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T18:04:59.948Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\Views\\Blogs\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Caro\\Views\\Blogs\\Edit.cshtml",
+              "ToolTip": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\Views\\Blogs\\Edit.cshtml",
+              "RelativeToolTip": "Caro\\Views\\Blogs\\Edit.cshtml",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAACMAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-31T19:25:23.492Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "Caro\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ToolTip": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeToolTip": "Caro\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-02T19:21:52.413Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "dbo.ShoppingCarts.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__carodb/caro2/True/SqlTable/dbo.ShoppingCarts.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/_localdb__carodb/caro2/True/SqlTable/dbo.ShoppingCarts.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-08-02T07:45:31.534Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\Views\\Cart\\Index.cshtml",
+              "RelativeDocumentMoniker": "Caro\\Views\\Cart\\Index.cshtml",
+              "ToolTip": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\Views\\Cart\\Index.cshtml",
+              "RelativeToolTip": "Caro\\Views\\Cart\\Index.cshtml",
+              "ViewState": "AQIAACQAAAAAAAAAAAAAADUAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-02T19:01:09.18Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Cart.cshtml",
+              "DocumentMoniker": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\Views\\Products\\Cart.cshtml",
+              "RelativeDocumentMoniker": "Caro\\Views\\Products\\Cart.cshtml",
+              "ToolTip": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\Views\\Products\\Cart.cshtml",
+              "RelativeToolTip": "Caro\\Views\\Products\\Cart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACgAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-16T13:47:52.335Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
               "Title": "_DashLayout.cshtml",
               "DocumentMoniker": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\Views\\Shared\\_DashLayout.cshtml",
               "RelativeDocumentMoniker": "Caro\\Views\\Shared\\_DashLayout.cshtml",
@@ -342,22 +504,44 @@
               "RelativeToolTip": "Caro\\Views\\Shared\\_DashLayout.cshtml",
               "ViewState": "AQIAAFkAAAAAAAAAAAAwwGYAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-16T13:07:18.86Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-16T13:07:18.86Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "dbo.Messages [Data]",
+              "DocumentIndex": 22,
+              "Title": "Messages.cshtml",
+              "DocumentMoniker": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\Views\\Products\\Messages.cshtml",
+              "RelativeDocumentMoniker": "Caro\\Views\\Products\\Messages.cshtml",
+              "ToolTip": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\Views\\Products\\Messages.cshtml",
+              "RelativeToolTip": "Caro\\Views\\Products\\Messages.cshtml",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAwwA4AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-16T13:04:25.674Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "Caro\\Controllers\\CartController.cs",
+              "ToolTip": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\Controllers\\CartController.cs",
+              "RelativeToolTip": "Caro\\Controllers\\CartController.cs",
+              "ViewState": "AQIAADsAAAAAAAAAAAAgwEkAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T13:37:36.276Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "dbo.Messages.sql",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__carodb/caro2/True/SqlTable/dbo.Messages.sql",
-              "ToolTip": "dbo.Messages [Data]",
+              "ToolTip": "ViewDataWindow_MSSQL__/_localdb__carodb/caro2/True/SqlTable/dbo.Messages.sql",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-08-16T12:58:44.304Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-16T12:58:44.304Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 23,
               "Title": "Index.cshtml",
               "DocumentMoniker": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\Views\\Products\\Index.cshtml",
               "RelativeDocumentMoniker": "Caro\\Views\\Products\\Index.cshtml",
@@ -365,12 +549,11 @@
               "RelativeToolTip": "Caro\\Views\\Products\\Index.cshtml",
               "ViewState": "AQIAADEAAAAAAAAAAAAAADEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-01T15:15:25.84Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-01T15:15:25.84Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 19,
               "Title": "RolesController.cs",
               "DocumentMoniker": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\Controllers\\RolesController.cs",
               "RelativeDocumentMoniker": "Caro\\Controllers\\RolesController.cs",
@@ -378,12 +561,11 @@
               "RelativeToolTip": "Caro\\Controllers\\RolesController.cs",
               "ViewState": "AQIAAAkAAAAAAAAAAADwvxsAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-16T13:19:40.888Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-16T13:19:40.888Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 27,
               "Title": "20240816124025_messages.cs",
               "DocumentMoniker": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\Migrations\\20240816124025_messages.cs",
               "RelativeDocumentMoniker": "Caro\\Migrations\\20240816124025_messages.cs",
@@ -391,25 +573,11 @@
               "RelativeToolTip": "Caro\\Migrations\\20240816124025_messages.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAAA0AAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-16T12:40:26.173Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-16T12:40:26.173Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "ProductsController.cs",
-              "DocumentMoniker": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\Controllers\\ProductsController.cs",
-              "RelativeDocumentMoniker": "Caro\\Controllers\\ProductsController.cs",
-              "ToolTip": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\Controllers\\ProductsController.cs",
-              "RelativeToolTip": "Caro\\Controllers\\ProductsController.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAABwAAAAUAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-26T03:02:56.865Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 25,
               "Title": "Contact.cshtml",
               "DocumentMoniker": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\Views\\Shop\\Contact.cshtml",
               "RelativeDocumentMoniker": "Caro\\Views\\Shop\\Contact.cshtml",
@@ -417,25 +585,11 @@
               "RelativeToolTip": "Caro\\Views\\Shop\\Contact.cshtml",
               "ViewState": "AQIAADkAAAAAAAAAAAAAAD4AAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-16T12:33:21.837Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-16T12:33:21.837Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "ShopController.cs",
-              "DocumentMoniker": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\Controllers\\ShopController.cs",
-              "RelativeDocumentMoniker": "Caro\\Controllers\\ShopController.cs",
-              "ToolTip": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\Controllers\\ShopController.cs",
-              "RelativeToolTip": "Caro\\Controllers\\ShopController.cs",
-              "ViewState": "AQIAAEEAAAAAAAAAAAAgwEQAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-01T15:59:08.658Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 26,
               "Title": "ApplicationDbContextModelSnapshot.cs",
               "DocumentMoniker": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\Migrations\\ApplicationDbContextModelSnapshot.cs",
               "RelativeDocumentMoniker": "Caro\\Migrations\\ApplicationDbContextModelSnapshot.cs",
@@ -443,25 +597,11 @@
               "RelativeToolTip": "Caro\\Migrations\\ApplicationDbContextModelSnapshot.cs",
               "ViewState": "AQIAAGsAAAAAAAAAAAAowHMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-16T12:45:34.965Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-16T12:45:34.965Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "_ShopLayout.cshtml",
-              "DocumentMoniker": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\Views\\Shared\\_ShopLayout.cshtml",
-              "RelativeDocumentMoniker": "Caro\\Views\\Shared\\_ShopLayout.cshtml",
-              "ToolTip": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\Views\\Shared\\_ShopLayout.cshtml",
-              "RelativeToolTip": "Caro\\Views\\Shared\\_ShopLayout.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-01T15:50:54.629Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 28,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "Caro\\Data\\ApplicationDbContext.cs",
@@ -469,12 +609,11 @@
               "RelativeToolTip": "Caro\\Data\\ApplicationDbContext.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAABAAAAA0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-02T06:38:40.021Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-02T06:38:40.021Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 29,
               "Title": "_LoginPartial.cshtml",
               "DocumentMoniker": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\Views\\Shared\\_LoginPartial.cshtml",
               "RelativeDocumentMoniker": "Caro\\Views\\Shared\\_LoginPartial.cshtml",
@@ -482,24 +621,11 @@
               "RelativeToolTip": "Caro\\Views\\Shared\\_LoginPartial.cshtml",
               "ViewState": "AQIAABIAAAAAAAAAAAAAABoAAABHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-31T18:09:38.37Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-31T18:09:38.37Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "main.js",
-              "DocumentMoniker": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\js\\main.js",
-              "RelativeDocumentMoniker": "Caro\\wwwroot\\js\\main.js",
-              "ToolTip": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\wwwroot\\js\\main.js",
-              "RelativeToolTip": "Caro\\wwwroot\\js\\main.js",
-              "ViewState": "AQIAABYAAAAAAAAAAAAQwBoAAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-08-02T19:08:50.334Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 30,
               "Title": "Blogs.cshtml",
               "DocumentMoniker": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\Views\\Shop\\Blogs.cshtml",
               "RelativeDocumentMoniker": "Caro\\Views\\Shop\\Blogs.cshtml",
@@ -511,7 +637,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 31,
               "Title": "Register.cshtml.cs",
               "DocumentMoniker": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
               "RelativeDocumentMoniker": "Caro\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
@@ -523,19 +649,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "Register.cshtml",
-              "DocumentMoniker": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
-              "RelativeDocumentMoniker": "Caro\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
-              "ToolTip": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
-              "RelativeToolTip": "Caro\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-02T19:21:52.413Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 32,
               "Title": "20240802074632_ShoppingCartSize2.cs",
               "DocumentMoniker": "C:\\Users\\hp zbook\\Desktop\\Caro - Copy\\Caro\\Migrations\\20240802074632_ShoppingCartSize2.cs",
               "ToolTip": "C:\\Users\\hp zbook\\Desktop\\Caro - Copy\\Caro\\Migrations\\20240802074632_ShoppingCartSize2.cs",
@@ -545,7 +659,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 34,
               "Title": "20240802074050_ShoppingCartSize2.cs",
               "DocumentMoniker": "C:\\Users\\hp zbook\\Desktop\\Caro - Copy\\Caro\\Migrations\\20240802074050_ShoppingCartSize2.cs",
               "ToolTip": "C:\\Users\\hp zbook\\Desktop\\Caro - Copy\\Caro\\Migrations\\20240802074050_ShoppingCartSize2.cs",
@@ -555,19 +669,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "BlogsController.cs",
-              "DocumentMoniker": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\Controllers\\BlogsController.cs",
-              "RelativeDocumentMoniker": "Caro\\Controllers\\BlogsController.cs",
-              "ToolTip": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\Controllers\\BlogsController.cs",
-              "RelativeToolTip": "Caro\\Controllers\\BlogsController.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAAAAwAwAAAAjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-31T18:04:59.948Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 36,
               "Title": "Product.cs",
               "DocumentMoniker": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\Models\\Product.cs",
               "RelativeDocumentMoniker": "Caro\\Models\\Product.cs",
@@ -579,7 +681,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 35,
               "Title": "SingleProduct.cshtml",
               "DocumentMoniker": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\Views\\Shop\\SingleProduct.cshtml",
               "RelativeDocumentMoniker": "Caro\\Views\\Shop\\SingleProduct.cshtml",
@@ -591,7 +693,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 37,
               "Title": "20240802073730_ShoppingCartSize.cs",
               "DocumentMoniker": "C:\\Users\\hp zbook\\Desktop\\Caro - Copy\\Caro\\Migrations\\20240802073730_ShoppingCartSize.cs",
               "ToolTip": "C:\\Users\\hp zbook\\Desktop\\Caro - Copy\\Caro\\Migrations\\20240802073730_ShoppingCartSize.cs",
@@ -601,7 +703,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 38,
               "Title": "ProductSize.cs",
               "DocumentMoniker": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\Models\\ProductSize.cs",
               "RelativeDocumentMoniker": "Caro\\Models\\ProductSize.cs",
@@ -613,19 +715,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\Views\\Blogs\\Edit.cshtml",
-              "RelativeDocumentMoniker": "Caro\\Views\\Blogs\\Edit.cshtml",
-              "ToolTip": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\Views\\Blogs\\Edit.cshtml",
-              "RelativeToolTip": "Caro\\Views\\Blogs\\Edit.cshtml",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAACIAAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-31T19:25:23.492Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 39,
               "Title": "ProductImage.cs",
               "DocumentMoniker": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\Models\\ProductImage.cs",
               "RelativeDocumentMoniker": "Caro\\Models\\ProductImage.cs",
@@ -637,7 +727,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 40,
               "Title": "Create.cshtml",
               "DocumentMoniker": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\Views\\Products\\Create.cshtml",
               "RelativeDocumentMoniker": "Caro\\Views\\Products\\Create.cshtml",
@@ -649,7 +739,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 44,
               "Title": "Comment.cs",
               "DocumentMoniker": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\Models\\Comment.cs",
               "RelativeDocumentMoniker": "Caro\\Models\\Comment.cs",
@@ -661,7 +751,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 42,
               "Title": "Products.cshtml",
               "DocumentMoniker": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\Views\\Shop\\Products.cshtml",
               "RelativeDocumentMoniker": "Caro\\Views\\Shop\\Products.cshtml",
@@ -673,7 +763,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 43,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\Views\\Blogs\\Delete.cshtml",
               "RelativeDocumentMoniker": "Caro\\Views\\Blogs\\Delete.cshtml",
@@ -685,7 +775,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 41,
               "Title": "Blog.cs",
               "DocumentMoniker": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\Models\\Blog.cs",
               "RelativeDocumentMoniker": "Caro\\Models\\Blog.cs",
@@ -697,7 +787,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 45,
               "Title": "Create.cshtml",
               "DocumentMoniker": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\Views\\Blogs\\Create.cshtml",
               "RelativeDocumentMoniker": "Caro\\Views\\Blogs\\Create.cshtml",
@@ -709,7 +799,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 46,
               "Title": "BlogViewModel.cs",
               "DocumentMoniker": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\ViewModels\\BlogViewModel.cs",
               "RelativeDocumentMoniker": "Caro\\ViewModels\\BlogViewModel.cs",
@@ -721,7 +811,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 47,
               "Title": "Index.cshtml",
               "DocumentMoniker": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\Views\\Blogs\\Index.cshtml",
               "RelativeDocumentMoniker": "Caro\\Views\\Blogs\\Index.cshtml",
@@ -733,7 +823,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 48,
               "Title": "ImageHelper.cs",
               "DocumentMoniker": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\Utility\\ImageHelper.cs",
               "RelativeDocumentMoniker": "Caro\\Utility\\ImageHelper.cs",
@@ -745,7 +835,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 49,
               "Title": "ErrorViewModel.cs",
               "DocumentMoniker": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\Models\\ErrorViewModel.cs",
               "RelativeDocumentMoniker": "Caro\\Models\\ErrorViewModel.cs",
@@ -757,7 +847,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 50,
               "Title": "ProductViewModel.cs",
               "DocumentMoniker": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\ViewModels\\ProductViewModel.cs",
               "RelativeDocumentMoniker": "Caro\\ViewModels\\ProductViewModel.cs",
@@ -769,7 +859,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 51,
               "Title": "FormFileFromByteArray.cs",
               "DocumentMoniker": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\Utility\\FormFileFromByteArray.cs",
               "RelativeDocumentMoniker": "Caro\\Utility\\FormFileFromByteArray.cs",
@@ -781,7 +871,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 52,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\Views\\Products\\Edit.cshtml",
               "RelativeDocumentMoniker": "Caro\\Views\\Products\\Edit.cshtml",
@@ -793,19 +883,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\appsettings.json",
-              "RelativeDocumentMoniker": "Caro\\appsettings.json",
-              "ToolTip": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\appsettings.json",
-              "RelativeToolTip": "Caro\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAXAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-07-31T19:27:22.614Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 59,
               "Title": "20240731192627_blogs.cs",
               "DocumentMoniker": "C:\\Users\\hp zbook\\Desktop\\Caro - Copy\\Caro\\Migrations\\20240731192627_blogs.cs",
               "ToolTip": "C:\\Users\\hp zbook\\Desktop\\Caro - Copy\\Caro\\Migrations\\20240731192627_blogs.cs",
@@ -815,7 +893,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 60,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "Caro\\Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
@@ -827,7 +905,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 62,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\Areas\\Identity\\Pages\\Account\\Manage\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Caro\\Areas\\Identity\\Pages\\Account\\Manage\\_Layout.cshtml",
@@ -839,7 +917,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 61,
               "Title": "Index.cshtml",
               "DocumentMoniker": "F:\\uploaded\\Caro_ECommerce_Back\\Caro\\Views\\Shop\\Index.cshtml",
               "RelativeDocumentMoniker": "Caro\\Views\\Shop\\Index.cshtml",
@@ -851,16 +929,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "dbo.__EFMigrationsHistory [Data]",
+              "DocumentIndex": 33,
+              "Title": "dbo.__EFMigrationsHistory.sql",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__carodb/caro2/True/SqlTable/dbo.__EFMigrationsHistory.sql",
-              "ToolTip": "dbo.__EFMigrationsHistory [Data]",
+              "ToolTip": "ViewDataWindow_MSSQL__/_localdb__carodb/caro2/True/SqlTable/dbo.__EFMigrationsHistory.sql",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
               "WhenOpened": "2024-08-02T07:42:29.559Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 57,
               "Title": "Security.Users(2).data.sql",
               "DocumentMoniker": "F:\\uploaded\\Caro_ECommerce_Back\\Security.Users(2).data.sql",
               "RelativeDocumentMoniker": "Security.Users(2).data.sql",
@@ -871,46 +949,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
-              "Title": "Security.Roles [Data]",
+              "DocumentIndex": 55,
+              "Title": "Security.Roles.sql",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__carodb/caro2/True/SqlTable/Security.Roles.sql",
-              "ToolTip": "Security.Roles [Data]",
+              "ToolTip": "ViewDataWindow_MSSQL__/_localdb__carodb/caro2/True/SqlTable/Security.Roles.sql",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
               "WhenOpened": "2024-07-31T19:41:18.709Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
-              "Title": "Security.Users [Data]",
+              "DocumentIndex": 54,
+              "Title": "Security.Users.sql",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__carodb/caro2/True/SqlTable/Security.Users.sql",
-              "ToolTip": "Security.Users [Data]",
+              "ToolTip": "ViewDataWindow_MSSQL__/_localdb__carodb/caro2/True/SqlTable/Security.Users.sql",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
               "WhenOpened": "2024-07-31T19:44:51.326Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
-              "Title": "Security.UserRoles [Data]",
+              "DocumentIndex": 53,
+              "Title": "Security.UserRoles.sql",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__carodb/caro2/True/SqlTable/Security.UserRoles.sql",
-              "ToolTip": "Security.UserRoles [Data]",
+              "ToolTip": "ViewDataWindow_MSSQL__/_localdb__carodb/caro2/True/SqlTable/Security.UserRoles.sql",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
               "WhenOpened": "2024-07-31T19:59:39.944Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
-              "Title": "Security.Roles [Data]",
+              "DocumentIndex": 56,
+              "Title": "Security.Roles.sql",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__mssqllocaldb/aspnet_User_Management_App/True/SqlTable/Security.Roles.sql",
-              "ToolTip": "Security.Roles [Data]",
+              "ToolTip": "ViewDataWindow_MSSQL__/_localdb__mssqllocaldb/aspnet_User_Management_App/True/SqlTable/Security.Roles.sql",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
               "WhenOpened": "2024-07-31T19:28:35.292Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
-              "Title": "Security.UserRoles [Data]",
+              "DocumentIndex": 58,
+              "Title": "Security.UserRoles.sql",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__mssqllocaldb/aspnet_User_Management_App/True/SqlTable/Security.UserRoles.sql",
-              "ToolTip": "Security.UserRoles [Data]",
+              "ToolTip": "ViewDataWindow_MSSQL__/_localdb__mssqllocaldb/aspnet_User_Management_App/True/SqlTable/Security.UserRoles.sql",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
               "WhenOpened": "2024-07-31T19:28:18.863Z"
             }
